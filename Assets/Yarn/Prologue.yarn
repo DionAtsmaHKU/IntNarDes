@@ -1,0 +1,12 @@
+﻿title: Prologue
+tags:
+---
+Ending of prologue, hangout choice now.
+Who to hang out with?
+-> Caspur!
+    << jump CaspurHangout >>
+-> Capri!
+    << jump CapriHangout >>
+-> Erin!
+    << jump ErinHangout >>
+===

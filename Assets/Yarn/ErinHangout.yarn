@@ -1,0 +1,101 @@
+﻿title: ErinHangout
+tags:
+---
+<i> City Centre </i>
+
+ERIN: (rambling) ...and maybe we can get some ice cream after, doesn’t that sound lovely?
+
+GOLDIE: ...Mm? Oh yeah, ice cream sounds nice! 
+
+ERIN: ...
+
+Goldie: ...
+
+ERIN:  Are you alright Goldie? You seem a bit... out of it? Quiet?
+
+GOLDIE: No no I'm alright!!! It's just... loud, you know? Anyway, what did you say you wanted to do?
+
+ERIN: Hmm, I want to go get coffee, but I also want to shop for some new tops at Zeeman... What do you think we should do?
+
+GOLDIE: (Hmm...)
+-> Let's get coffee!! (-1 spoon)
+// -> Let's go shopping!! (-2 spoons)
+
+ERIN: Sure, you definitely look like you could use the energy boost! Would you also like a snack maybe? I have some cookies?
+
+GOLDIE: (Hmm...)
+-> Sure, thanks Erin!!! 
+    ERIN: Here you are!! Oh, and did you apply sunscreen? It's getting more and more sunny already! You know, even at UV rating 3 it can be useful to-
+-> No thanks!
+    ERIN: Alrighty!! Oh, and did you apply sunscreen? It's getting more and more sunny already! You know, even at UV rating 3 it can be useful to-
+
+GOLDIE: (...Seriously?)
+-> I did, thanks Erin! 
+
+ERIN: Ah good, good. Okay, let's go!
+<< jump ErinCafe >>
+===
+
+title: ErinCafe
+---
+<i> Local Cafe </i>
+
+Goldie: ...
+
+ERIN: So. Goldie! GoGo. G-Dog. Miss Fetch. Let's talk.
+
+GOLDIE: (laughing) "Miss Fetch"? Since when are we on last-name basis "Mx. Hero"? 
+
+ERIN: I said: Let's talk, Goldie.
+
+GOLDIE: (laughing, nervously now) Mmh? You sound so serious, is everything alright, Rin?
+
+ERIN: Well, that's precisely what I wanted to ask you! 
+
+GOLDIE: I'm... fine? I'm chilling! Just having a good ol time with my good ol pal Erin!
+
+ERIN: (Squinting judgingly) ...Are you sure you're okay?
+
+GOLDIE: Of course!! This coffee is great by the way, are you enjoying yours?
+
+ERIN: ...
+
+ERIN: ...It's good. 
+
+GOLDIE: (They're clearly still worried...)
+-> Rin. I'm fine, stop worrying please. (-1 spoon)
+-> ... Well, let's go shopping then! (-2 spoons)
+    ERIN: ...Alright, let's go then.
+    <i> To be continued... </i>
+    << jump Act2placeholder >>
+
+ERIN: Look, I'm sorry!! You just seem a lot quieter than usual, and more tired, and-
+
+GOLDIE: (...)
+-> Erin!!! We've talked about this. You're being a bit much.
+-> Let's just go shopping, okay? (-2 spoons)
+    ERIN: ...Alright, let's go then.
+    <i> To be continued... </i>
+    << jump Act2placeholder >>
+
+ERIN: Argh I know, I know! Sorry. I'm just... worried.
+
+GOLDIE: And you don't need to be!! I promise I'm fine! Let's just move on, okay?
+
+ERIN: ...
+
+ERIN: Okay, okay. Are you... still down for shopping?
+
+GOLDIE: (I'm kinda tired, but...)
+-> Yeah of course!!! Shopping time!!! (-2 spoons)
+
+ERIN: Great!! Let's go then!
+
+<i> To be continued... </i>
+<< jump Act2placeholder >>
+===
+
+title: Act2placeholder
+---
+
+===
