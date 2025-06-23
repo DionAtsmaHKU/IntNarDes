@@ -1,5 +1,6 @@
 ﻿title: ErinHangout
 tags:
+position: -25,-170
 ---
 <i> City Centre </i>
 
@@ -37,6 +38,7 @@ ERIN: Ah good, good. Okay, let's go!
 ===
 
 title: ErinCafe
+position: -24,28
 ---
 <i> Local Cafe </i>
 
@@ -96,6 +98,7 @@ ERIN: Great!! Let's go then!
 ===
 
 title: Act2placeholder
+position: -21,233
 ---
 
 ===
