@@ -1,0 +1,38 @@
+﻿title: SchoolDay2
+tags:
+---
+// Getting to school
+The next day...
+GOLDIE: (Looks like I'm at school early, I don't see anyone yet...)
+GOLDIE: (Oh! There's Archie at least!! Thank [cheesy dog pun here]!)
+GOLDIE: ARCHIE! There you are, I was worried you'd never show up!
+ARCHIE: GOLDIEEEE!!!
+ARCHIE: ...You do know you're half an hour early, right?
+GOLDIE: WOOPS! Maybe I'm just early then!
+ARCHIE: Are you alright? You seem a bit tired. How was your hangout with HangoutPerson yesterday?
+GOLDIE: (Do I really look that tired?)
+-> It went alright, I had a good time! (- spoons)
+    a
+-> To be honest, me and HangoutPerson had a bit of an argument...
+    b
+
+GOLDIE: (I should probably talk to HangoutFriendHere after yesterday...)
+GOLDIE: ANYWAY, gotta go see you in class byeeeeee~
+ARCHIE: ? OKAY BYE SEE YOU SOON!!
+
+// based on choice yesterday:
+<< jump ErinTalk >> 
+// Tension with friend from yesterday a bit relieved
+b
+// Class starts. jump to Jae's part
+===
+
+title: ErinTalk
+---
+GOLDIE: Yo erin we should like. apologize and Shit
+ERIN: yeah sure
+GOLDIE: ok gg'S
+// Spoons choice here probably
+class time
+<< jump ArchieHangout >>
+===
