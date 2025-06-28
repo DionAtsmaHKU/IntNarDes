@@ -12,7 +12,7 @@ Goldie: ...
 ERIN:  Are you alright Goldie? You seem a bit... out of it? Quiet?
 GOLDIE: No no I'm alright!!! It's just... loud, you know? 
 ERIN: Yeah... 
-Anyway, what did you say you wanted to do?
+ERIN: Anyway, what did you say you wanted to do?
 ERIN: Hmm, I want to go get coffee, but I also want to shop for some new tops at Zeeman... What do you think we should do?
 GOLDIE: (Hmm...)
 -> Let's get coffee!! (-1 bone)
@@ -37,7 +37,7 @@ title: ErinCafeStart
         ERIN: Ah good, good. Okay, let's go!
 <<else>>
     ERIN: After that I definitely need some coffee!
-    GOLDIE: 
+    GOLDIE: Me too, let's go!!
 <<endif>>
 <<Transition ErinCafe>>
 ===
@@ -60,8 +60,10 @@ ERIN: ...It's good.
 <<if $PartOneDone == false>>
     GOLDIE: (They're clearly still worried...)
     -> Rin. I'm fine, stop worrying please. (-1 bones)
+        <<set $Bones -= 1>>
     -> ... Well, let's go shopping then! (-2 bones)
         ERIN: ...Alright, let's go then.
+        <<set $Bones -= 2>>
         <<set $PartOneDone = true>>
         << jump ErinShoppingStart >>
 
@@ -69,6 +71,7 @@ ERIN: ...It's good.
     GOLDIE: (...)
     -> Erin!!! We've talked about this. You're being a bit much.
     -> Let's just go shopping, okay? (-2 bones)
+        <<set $Bones -= 2>>
         ERIN: ...Alright, let's go then.
         <<set $PartOneDone = true>>
         << jump ErinShoppingStart >>
@@ -79,6 +82,7 @@ ERIN: ...It's good.
     ERIN: Okay, okay. Are you... still down for shopping?
     GOLDIE: (I'm kinda tired, but...)
     -> Yeah of course!!! Shopping time!!! (-2 bones)
+        <<set $Bones -= 2>>
 
     ERIN: Great!! Let's go then!
     <<set $PartOneDone = true>>
@@ -100,8 +104,34 @@ title: ErinShoppingStart
 title: ErinShopping
 ---
 <<SetBg ShopBG>>
-GOLDIE: yo we shoppin'
-ERIN: so true bestie
+<i> Zeeman Clothing Shop </i>
+ERIN: WOW, there's just so much to buy... maybe this could fit you, Goldie!
+GOLDIE: (We've been at it for so long, I'm just waiting to leave at this point...)
+GOLDIE: ...OOOHH that looks nice! But I think I'm good, Erin! 
+ERIN: Come onnnnnn this would look great on you!! Admit it!
+GOLDIE: ...Mm? Yeah it would! 
+GOLDIE: (Ugh, I can't focus...)
+GOLDIE: (The store is so cramped and the customers are so loud...)
+GOLDIE: (I just wanna lie down and roll over honestly...)
+ERIN: ...and that too of course. Wait, were you even listening?
+GOLDIE: OOPS, sorry haha... I'm just a bit tired, okay?
+ERIN: ...A bit tired? is that all there is to it?
+<<if $PartOneDone == true>>
+    <<jump ErinArgue>>
+<<endif>>
+GOLDIE: (Come on...)
+-> YES Erin. It's just loud, okay? (-1 bone)
+    <<set $Bones -= 1>>
+    ERIN: Are you suuuuuuuure? Goldie, I can tell it's not just-
+    GOLDIE: It's fine! But let's just go outside, okay?
+    ERIN: But-
+-> YEP! Though I could really go for some coffee right about now! (-2 bones)
+    <<set $Bones -= 2>>
+
+<i> Before Erin can say anything, Goldie sprints outside </i>
+ERIN: ...Alright, I guess I'll pay for this first? WAIT FOR ME GOLDIE-
+<<set $PartOneDone = true>>
+<<jump ErinCafeStart>>
 ===
 
 title: ErinArgue

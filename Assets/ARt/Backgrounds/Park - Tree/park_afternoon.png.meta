@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      park_afternoon_0: -1094271689053520236
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
