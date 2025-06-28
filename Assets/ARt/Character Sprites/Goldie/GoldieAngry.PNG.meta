@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GoldieAngry_0: -7178772692366325350
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

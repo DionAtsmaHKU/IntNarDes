@@ -3,7 +3,7 @@ tags:
 ---
 // step out house
 ???: Bye mom! Bye dad! I'm out for school!
-Mom: Stay safe!
+MOM: Stay safe!
 ???: Will do!
 I close the door behind me, put my sneakers on and take a good look onto the street...
 //introduction/scene buildup, goldie introduction
@@ -14,53 +14,53 @@ The spring breeze is hitting me gently as im walking to the bus stop. I see teen
 I'm not that much of a school person, It's not like I'm a nerd for grades or anything in Claw Academy, it's just...
 ...I miss my friends, really! Caspur, Capri, Erin...
 //bump into Archie
-Goldie: ...Archie? //whispering
+GOLDIE: ...Archie? //whispering
 As I get to the bus stop, I see a familiar face peek through the glass walls...
-Goldie: ARCHIE!!!
-Archie: GOLDIE!!!
+GOLDIE: ARCHIE!!!
+ARCHIE: GOLDIE!!!
 I Jump into their arms and they jump into mine and we give eachother a big ol' hug!
-Goldie: Good to see you, girl!! //gender neutral tone tag
+GOLDIE: Good to see you, girl!! //gender neutral tone tag
 //entering convo on what you did in spring break
-Archie: You too, you too! How've you been?
-Goldie: Oh ive been great! Just spending the days working around the house, relaxing, baking, baking again, walking along the pier, baking again again, watching stuff on Cats Eye TV Plus, you now? the new show Weevilance is SO good! Oh I gotta tell you all about it-
-Archie: Yo, breathe!!
-Archie: We can catch up during miss Jeans's class, no worries, dude.
-Goldie: That's true! But have you watched it? Have you??
-Archie: Weevilance?
-Goldie: Yes!! It's so good!
-Archie: Eehh... no, not really? Seen clips here and there and heard all the hype but didnt really bother, yknow?
-Goldie: ahh,, well,,, Its good! its really really good-
+ARCHIE: You too, you too! How've you been?
+GOLDIE: Oh ive been great! Just spending the days working around the house, relaxing, baking, baking again, walking along the pier, baking again again, watching stuff on Cats Eye TV Plus, you now? the new show Weevilance is SO good! Oh I gotta tell you all about it-
+ARCHIE: Yo, breathe!!
+ARCHIE: We can catch up during miss Jeans's class, no worries, dude.
+GOLDIE: That's true! But have you watched it? Have you??
+ARCHIE: Weevilance?
+GOLDIE: Yes!! It's so good!
+ARCHIE: Eehh... no, not really? Seen clips here and there and heard all the hype but didnt really bother, yknow?
+GOLDIE: ahh,, well,,, Its good! its really really good-
 Right as i said that, i see the bus arrive through the corner of my eye.
-Goldie: Oh its here!
-Archie: Lets go.
+GOLDIE: Oh its here!
+ARCHIE: Lets go.
 <<jump IntroBus>>
 ===
 title: IntroBus
 ---
 We both enter the bus and get a seat next to eachother. as the bus departs...
 -> Continue the conversation
-    Goldie: So how've you been, what about you? Tell me all about it!
+    GOLDIE: So how've you been, what about you? Tell me all about it!
 -> Look outside
     I try to see my house from the distance, maybe its over there? maybe my mom or dad are waving the bus off or his car is going out of the gara-
-    Archie: -So are you not gonna ask what ive done?
-    Goldie: OHH!! Uuuuhhmmm- yeah! Paws, right! What about you, girlie? what did you do?
-Archie: Well ive been at it on Lokémob Neon-
-Goldie: Lokémob?
-Archie: yeah, completing my collection on the game and all that, post-game content- just been grinding on that.
-Goldie: Awesome!!
-Archie: Other then that, drawing sometimes and egh, homework...
-Goldie: Oh SO REAL. I didn't bother touching that at all-
-Archie: Yeah because you're just smart.
-Goldie: Girl, no! I'm okay-brained- not, *einstein*-brained!! //how do you do italics lmfao
-Archie: Yeah sure okay, miss "highest grade of our friends" Goldie.
-Goldie: Girl...
-Goldie: What else can I say, lol? whenever I need to learn stuff for an exam, I just sit down and lock in and Do The Thing... //Do The Thing was a subconsious philza reference i wrote down im awesome - also just wanted something that alludes to le funny adhd experience
-Goldie: Look, At least I'm not smartypants nerd 9000.
-Archie: ...Herbert? //this is in fact a reference to herbert p bear from club penguin
-Goldie: Yeah, that guy!! mister "highest grade of your year" Herbert!
+    ARCHIE: -So are you not gonna ask what ive done?
+    GOLDIE: OHH!! Uuuuhhmmm- yeah! Paws, right! What about you, girlie? what did you do?
+ARCHIE: Well ive been at it on Lokémob Neon-
+GOLDIE: Lokémob?
+ARCHIE: yeah, completing my collection on the game and all that, post-game content- just been grinding on that.
+GOLDIE: Awesome!!
+ARCHIE: Other then that, drawing sometimes and egh, homework...
+GOLDIE: Oh SO REAL. I didn't bother touching that at all-
+ARCHIE: Yeah because you're just smart.
+GOLDIE: Girl, no! I'm okay-brained- not, <i>einstein</i>-brained!! //how do you do italics lmfao
+ARCHIE: Yeah sure okay, miss "highest grade of our friends" Goldie.
+GOLDIE: Girl...
+GOLDIE: What else can I say, lol? whenever I need to learn stuff for an exam, I just sit down and lock in and Do The Thing... //Do The Thing was a subconsious philza reference i wrote down im awesome - also just wanted something that alludes to le funny adhd experience
+GOLDIE: Look, At least I'm not smartypants nerd 9000.
+ARCHIE: ...Herbert? //this is in fact a reference to herbert p bear from club penguin
+GOLDIE: Yeah, that guy!! mister "highest grade of your year" Herbert!
 Archie chuckles, then clears their throat.
-Archie: "And for this years Prom-nerd king and queen the votes go to..."
-Goldie: !!!
-Goldie: SHUT UP SHUT UP SHUT UPPPP!!! //embarrased blush sprite
+ARCHIE: "And for this years Prom-nerd king and queen the votes go to..."
+GOLDIE: !!!
+GOLDIE: SHUT UP SHUT UP SHUT UPPPP!!! //embarrased blush sprite
 <<jump SchoolDay1>>
 ===

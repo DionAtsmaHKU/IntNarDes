@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GoldieFake_0: 8302766482470094222
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

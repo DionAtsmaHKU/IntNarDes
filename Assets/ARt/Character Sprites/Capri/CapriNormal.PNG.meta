@@ -334,7 +334,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CapriNormal_0: 5396539277952813881
+      CapriNormal_1: 7731630987375144975
+      CapriNormal_2: 3176730888146573044
+      CapriNormal_3: 269370098527679860
+      CapriNormal_4: -2614046023008503880
+      CapriNormal_5: -538011279048601566
+      CapriNormal_6: 2990332796218782949
+      CapriNormal_7: 3976540408748973135
+      CapriNormal_8: -8697039731193713109
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

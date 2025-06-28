@@ -1,13 +1,59 @@
 ﻿title: SchoolDay1
 tags:
 ---
-//exit bus
-We both step out at our stop, Claws Avenue.
+//exit bus, set bg to school entrance
+We both step out at our stop, Canine Avenue!
 Our school is right around the corner, Claw Academy; the biggest high school of the state!
 Think of an entire arena filled with people... now cram them into a 5-story building! Paws, its SOOO big! //voor dion; ja mijn inspiratiebron is nicolaas
+ARCHIE: Pwooh, so many people already? It's so busy-!
+GOLDIE: Right!!!! I can't see any of our friends though...
+ARCHIE: There? *Points*
+GOLDIE: No-? That's... Dervin? //imagine hes like. a dolphin jock
+GOLDIE: Those ears though... Looks so much like-
+ARCHIE: Caspur?
+GOLDIE: No- Capri?
+ARCHIE & GOLDIE: hmmm.....
+We look around, and around, and around and around and-
+ARCHIE & GOLDIE: OUR FRIENDS!
+ARCHIE: WHOEVER IS LAST HAS TO BUY THE OTHER ONE LUNCH!!
+GOLDIE: huh-?
+GOLDIE: (CHEATER! THEY GOT A HEAD START- WHAT THE PAWS!)
+GOLDIE: argh you're running anyway...
+GOLDIE: THE LUNCH SUCKS HERE THOUGH-!!
+<<jump SchoolDay1Inside>>
+===
+title: SchoolDay1Inside
+---
 //enter school building, go to locker
+GOLDIE: FRIENDS!
+ERIN: Oh, Hi Goldie! Lovely to see you!
+CAPRI: Sup.
+Caspur: Yo.
 //see all friends there, catch up
 //talk about hanging out
 //school bell goes, go to class
 //timeskip to end of school day, pick between 3 hangouts
+GOLDIE: (Ugh, I haven't had much time to hang out with any of my friends, really...)
+GOLDIE: (Not during the break either, I mean, It's the first day of school, there's not that much to do yet...)
+GOLDIE: (And I still have the rest of the day to go! so...)
+GOLDIE: (I don't see anyone of my friends immediatly, who should I look for?)
+-> Go to Capri's locker
+    <<jump SchoolDay1Capri>>
+-> Go to Caspurs's locker
+    <<jump SchoolDay1Caspur>>
+-> Go to Erin's locker
+    <<jump SchoolDay1Erin>>
 ===
+title: SchoolDay1Capri
+---
+GOLDIE: a
+===
+title: SchoolDay1Caspur
+---
+GOLDIE: a
+===
+title: SchoolDay1Erin
+---
+GOLDIE: a
+===
+

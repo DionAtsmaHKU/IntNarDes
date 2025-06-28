@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BigSisHappy_0: 5010454698848748732
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

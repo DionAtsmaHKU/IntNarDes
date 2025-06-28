@@ -1,60 +1,66 @@
 ﻿title: CapriHangout
 ---
-THE ARECA MALL - AFTERNOON
-A bustling mall at the shoreline of “Future California”. The place is packed with youth. It’s roughly 2:30 PM, so most kids just got out of school. Not everyone’s heading to the mall, that is apparent from the lack of shops that are open today. Most are headed to the food court or the arcade.
-The cold air conditioning hits GOLDIE FETCH and CAPRI SOL as they Both enter the mall from what seems to be a running competition. CAPRI SOL looks exhausted whilst GOLDIE FETCH looks like she hasn’t broken a sweat.
+<i> The Streets heading to The Areca Mall </i>
+GOLDIE: (Such a bustling Street, this place is SO packed with people!)
+GOLDIE: (And now with Capri, we can just-)
+CAPRI: (Rambling) It’s roughly 2:30 PM, so most kids just got out of school. Not everyone’s heading to the mall, that is apparent from the lack of shops that are open today. Most are headed to the food court or the arcade... 
+GOLDIE: (Paws damnit...)
+GOLDIE: Yea yea. WANNA RACE?
+CAPRI: Huh?
+GOLDIE: SORRYCANTHEARYOUIMALREADYOFFFFF!!!~
 
-GOLDIE FETCH: Phew- ya good?
+<i> The Areca Mall </i>
+GOLDIE: FIRST PLACE!!!
+GOLDIE: pheww... Ya good, bestie?
 
-CAPRI SOL : No… just… // Exhausted Sprite
-CAPRI SOL : (Continues to be out of breath) // Exhausted Sprite
-CAPRI SOL : Gimmie... a min... // Exhausted Sprite
+CAPRI: No… just… // Exhausted Sprite
+CAPRI: (Continues to be out of breath) // Exhausted Sprite
+CAPRI: Gimmie... a min... // Exhausted Sprite
 
-GOLDIE FETCH puts her paw on CAPRI SOLS shoulder.
+I put my paw on his shoulder, paws he looks exhausted haha!
 
-GOLDIE FETCH: Haha, right! right, your shapes never been the best, eh-
+GOLDIE: Haha, right! right, your shapes never been the best, eh-
 
 CAPRI SOL glances away, looks back at GOLDIE FETCH and rolls his eyes.
 
-CAPRI SOL : -Okay -Says you. // Exhausted Sprite
+CAPRI: -Okay -Says you. // Exhausted Sprite
 
-GOLDIE FETCH: (-Huh?)
-GOLDIE FETCH: What are ya tryna say?
+GOLDIE: (-Huh?)
+GOLDIE: What are ya tryna say?
 
-CAPRI SOL: You, the one with the gold star in shuttle run- Man, whatever-
-CAPRI SOL: -Let’s go. Mall time.
+CAPRI: You, the one with the gold star in shuttle run- Man, whatever-
+CAPRI: -Let’s go. Mall time.
 
-GOLDIE FETCH: (Was my comment too much? He sounds very pissed off...)
-GOLDIE FETCH: Capri…
+GOLDIE: (Was my comment too much? He sounds very pissed off...)
+GOLDIE: Capri…
 
-CAPRI SOL: What?
+CAPRI: What?
 
 -> Say Nothing
-    GOLDIE FETCH: …Where should we go? In the mall?
+    GOLDIE: …Where should we go? In the mall?
 -> Apologize (-1 Spoons)
-    GOLDIE FETCH: …I didn’t mean ill intent by pointing out the difference in our shape shape, I meant condition! You know? Running? Fast? Being fast? Nyoom? running? speed-
-    CAPRI SOL: -Dude. I said let's go. No reason to continue this, come on.
-    GOLDIE FETCH: Oh. Okay… um…
-    GOLDIE FETCH: (change topic, change topic!!!)
-    GOLDIE FETCH: Where should we go first? In the um… the mall yeah?
+    GOLDIE: …I didn’t mean ill intent by pointing out the difference in our shape shape, I meant condition! You know? Running? Fast? Being fast? Nyoom? running? speed-
+    CAPRI: -Dude. I said let's go. No reason to continue this, come on.
+    GOLDIE: Oh. Okay… um…
+    GOLDIE: (change topic, change topic!!!)
+    GOLDIE: Where should we go first? In the um… the mall yeah?
 
-CAPRI SOL: Where do you wanna go?
+CAPRI: Where do you wanna go?
 
--> Searing Subject (Hot Topic)
+-> What about clothing, Searie?
     <<jump CapriHangoutSearie>>        
--> CineUniverse (Cinemas) (-1 Spoons)
+-> Okay... the uhh... The Cinemas! (-1 Spoons)
     <<jump CapriHangoutCinema>>
 ===
 title: CapriHangoutSearie
 ---
-GOLDIE FETCH: What about Searie?
-CAPRI SOL: Sorry, Searie?
-GOLDIE FETCH: Like Searie! Searing Subject? the place me and Archie rock our gear from?
-CAPRI SOL: uuuuuhhh… closed.
-CAPRI SOL points at a store with a bold sign saying “SEARING SUBJECT”. The doors are shuttered closed.
-GOLDIE FETCH: Damnit!
-GOLDIE FETCH: (well thats annoying…)
-GOLDIE FETCH: What about...
+CAPRI: Sorry, Searie?
+GOLDIE: Like Searie! Searing Subject? the place me and Archie rock our gear from?
+CAPRI: uuuuuhhh… closed.
+GOLDIE: (YOURE KIDDING! The doors are shuttered closed...)
+GOLDIE: Damnit!
+GOLDIE: (well thats annoying…)
+GOLDIE: What about...
 
 -> CineUniverse (Cinemas) (-1 Spoons)
     <<jump CapriHangoutCinema>>
@@ -62,24 +68,23 @@ GOLDIE FETCH: What about...
 
 title: CapriHangoutCinema
 ---
-GOLDIE FETCH: Okay... the uhh... The Cinemas!
-CAPRI SOL: This place has a cinema?
-GOLDIE FETCH: Yeah! There's a CineUniverse above the food court on the third floor and lotsa people miss out on it because nobody goes to the third floor except for maaaaybe toilets? And also the arcade?-
-CAPRI SOL: -Didn’t they file bankruptcy like… Yesterday?
-GOLDIE FETCH: HUUUUHHH???
-GOLDIE FETCH Picks up her smartphone to check the news.
-GOLDIE FETCH: What the ... Oh my bark it did.
-The two get to the third floor to see a comically empty CineUniverse. GOLDIE FETCH’S jaw drops to the floor.
-GOLDIE FETCH: Ughhhh!!! DAMNIT...!!
+CAPRI: This place has a cinema?
+GOLDIE: Yeah! There's a CineUniverse above the food court on the third floor and lotsa people miss out on it because nobody goes to the third floor except for maaaaybe toilets? And also the arcade?-
+CAPRI: -Didn’t they file bankruptcy like… Yesterday?
+GOLDIE: HUUUUHHH???
+GOLDIE: (let me quickly check my phone-)
+GOLDIE: What the ... Oh my bark it did.
+CAPRI: Told you.
+GOLDIE: Ughhhh!!! DAMNIT...!!
 <<jump CapriHangoutBust>>
 ===
 
 title: CapriHangoutBust
 ---
-CAPRI SOL: So that was a bust.
-CAPRI SOL: What about the uh... The food court? Or… what about the arcade?
-GOLDIE FETCH: Paws, I’m just... eehhh... I dunno…
-GOLDIE FETCH: (Why do I wanna leave now...? we- we haven't even done anything of note- man...)
+CAPRI: So that was a bust.
+CAPRI: What about the uh... The food court? Or… what about the arcade?
+GOLDIE: Paws, I’m just... eehhh... I dunno…
+GOLDIE: (Why do I wanna leave now...? we- we haven't even done anything of note- man...)
 
 GOLDIE FETCH looks around with a frown. She is clearly starting to feel unwell.
 
@@ -91,17 +96,18 @@ GOLDIE FETCH looks around with a frown. She is clearly starting to feel unwell.
 
 title: CapriHangoutFood
 ---
-GOLDIE FETCH’S stomach makes a loud rumbling sound.
-GOLDIE FETCH: ...Food?
-GOLDIE FETCH: (But, the food court we just passed by was loud and busy and intense and also loud and-)
-CAPRI SOL: Food it is.
-GOLDIE FETCH and CAPRI SOL enter the oh so busy food court. The Sound of chit-chattering and screaming babies and loud food-related noises fill up the entirety of the second floor.
-GOLDIE FETCH: (-Oh no. Oh nonono. I don’t... IIII AM IN FACT GETTING AT MY LIMIT. OHHH MY BARK. YEAH NO THIS IS NOT GOING GREAT I SHOULD LEAAAVE I WANNA LEAAAAVE. LIKE RIGHT NOW.) // Overstimulated sprite
-GOLDIE FETCH: ...ummm...
-GOLDIE FETCH: eeehhhh... erm...
-GOLDIE FETCH looks frantically at CAPRI SOL. CAPRI SOL is unbothered.
-
-CAPRI SOL: -So?
+*STOMACH GRUMBLE*
+CAPRI: Was that you?
+GOLDIE: ...Food?
+GOLDIE: (But, the food court we just passed by was loud and busy and intense and also loud and-)
+CAPRI: Food it is.
+//scene change to food court
+CAPRI: Paws its busy...
+GOLDIE: (-Oh no. Oh nonono. I don’t... IIII AM IN FACT GETTING AT MY LIMIT. OHHH MY BARK. YEAH NO THIS IS NOT GOING GREAT I SHOULD LEAAAVE I WANNA LEAAAAVE. LIKE RIGHT NOW.) // Overstimulated sprite
+GOLDIE: ...ummm...
+GOLDIE: eeehhhh... erm...
+GOLDIE: (LOOK AROUND FOR AN EXIT OR SOMETHING, IIII UM.... I AM UMMMM... THINK!!! THINK!)
+CAPRI: -So?
 
 -> QUICK DIVERSION (-3 Spoons)
     <<jump CapriHangoutArcade>>
@@ -111,15 +117,15 @@ CAPRI SOL: -So?
 
 title: CapriHangoutArcade
 ---
-GOLDIE FETCH: ARCADE!! // Overstimulated sprite
-CAPRI SOL: ‘Kay.
-GOLDIE FETCH and CAPRI SOL enter the oh so busy Arcade. The Sound of loud rhythm games and screaming babies and loud button-smashing noises fill up the entirety of the Arcade.
-GOLDIE FETCH : (...I DON'T LIKE THIS…?!?!!??!?!?!???) // Overstimulated sprite
-GOLDIE FETCH looks frantically at CAPRI SOL. CAPRI SOL is unbothered.
-CAPRI SOL: Oh shit look! they got Tunes Vortex, that one arcade game i've been waiting for-
-GOLDIE FETCH : (I CAN’T… STAY…!) // Overstimulated sprite
+GOLDIE: ARCADE!! // Overstimulated sprite
+CAPRI: ‘Kay.
+//trnasition to arcade
+GOLDIE: (...I DON'T LIKE THIS…?!?!!??!?!?!???) // Overstimulated sprite
+GOLDIE: (UM UH UH U MU HU MUH UM UMMMMM  UHUMM)
+CAPRI: Oh shit look! they got Tunes Vortex, that one arcade game i've been waiting for-
+GOLDIE: (I CAN’T… STAY…!) // Overstimulated sprite
 
-CAPRI SOL: (rambling) -out since, uuuhh... two years ago overseas? Prob thinking of a different cabinet...
+CAPRI: (rambling) -out since, uuuhh... two years ago overseas? Prob thinking of a different cabinet...
 
 ->LEAVE
     <<jump CapriHangoutEnd>>
@@ -127,11 +133,11 @@ CAPRI SOL: (rambling) -out since, uuuhh... two years ago overseas? Prob thinking
 
 title: CapriHangoutEnd
 ---
-GOLDIE FETCH: I THINK I JUST WANNA GO. LIKE RIGHT NOW I FORGOT I HAVE SOMEWHERE TO BE. // Overstimulated sprite
-GOLDIE FETCH: LIKE RIGHT NOW RIGHT THIS MOMENT RIGHT NOW. // Overstimulated sprite
-CAPRI SOL: What- So abruptly? I wasn’t even done explaining sou-
-GOLDIE FETCH: YEAHITWASGREATBEIGNWITHYOUANDALLBUTIDONTHTINKTHEMALLISAGREATPLACEFORMEATTHISPOINTINTIMEIDRATHERHAVESTAYEDHOMEOKAYNOWBYEEE~!!!! // Overstimulated sprite
-GOLDIE FETCH runs down the stairs to the exit of the mall in a sweat. CAPRI SOL is left at the Arcade staring down to the exit.
-CAPRI SOL: ...Well thats out of character.
-CAPRI SOL: (-Heh, wasn’t lying when I said that she’s the one with a gold star in shuttle run.)
+GOLDIE: I THINK I JUST WANNA GO. LIKE RIGHT NOW I FORGOT I HAVE SOMEWHERE TO BE. // Overstimulated sprite
+GOLDIE: LIKE RIGHT NOW RIGHT THIS MOMENT RIGHT NOW. // Overstimulated sprite
+CAPRI: What- So abruptly? I wasn’t even done explaining sou-
+GOLDIE: YEAHITWASGREATBEIGNWITHYOUANDALLBUTIDONTHTINKTHEMALLISAGREATPLACEFORMEATTHISPOINTINTIMEIDRATHERHAVESTAYEDHOMEOKAYNOWBYEEE~!!!! // Overstimulated sprite
+//goldie sprite running away
+CAPRI: ...Well thats out of character.
+CAPRI: (-Heh, wasn’t lying when I said that she’s the one with a gold star in shuttle run.)
 ===

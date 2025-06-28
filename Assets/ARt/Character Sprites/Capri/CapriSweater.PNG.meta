@@ -334,7 +334,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CapriSweater_0: -4445291669021518292
+      CapriSweater_1: 4194560271597048787
+      CapriSweater_2: -672107337722480132
+      CapriSweater_3: -1605333180805314412
+      CapriSweater_4: 3269200665631163692
+      CapriSweater_5: 2256273876903350122
+      CapriSweater_6: 7240109821816091296
+      CapriSweater_7: 3248769410294174792
+      CapriSweater_8: 211387853936758888
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
