@@ -1,4 +1,4 @@
-﻿title: SchoolDay1
+title: SchoolDay1
 tags:
 ---
 //exit bus, set bg to school entrance
@@ -28,11 +28,52 @@ title: SchoolDay1Inside
 GOLDIE: FRIENDS!
 ERIN: Oh, Hi Goldie! Lovely to see you!
 CAPRI: Sup.
-Caspur: Yo.
-//see all friends there, catch up
-//talk about hanging out
-//school bell goes, go to class
+CASPUR: Yo.
+GOLDIE: Paws, It feels like i haven't seen you all in 7 years-!
+CASPUR: Days, you mean.
+GOLDIE: ?
+CASPUR: 7 Days?
+GOLDIE: YOU KNOW IM JOKINGGG!!!
+ARCHIE: pff...
+CASPUR: *Chuckles* Yeah right...
+GOLDIE: Paws...
+-> Really feels like 7 years though!!
+    CAPRI: So funny, dude. 
+    GOLDIE: I KNOW I AM!!
+    GOLDIE: okay okay okay but... How've you all been? tell me!!
+-> How have you all been??
+ERIN: Just busy crocheting, that's all.
+ARCHIE: Gaming, the usual.
+*BELL RINGS*
+GOLDIE: OH BARK! I STILL GOTTA GO TO MY LOCKER AND THEN MISS JEANS!!
+GOLDIE: ERIN, CASPUR, CAPRI, ILL HANG OUT WITH YOU GUYS LATER!!!!!
+ERIN, CASPUR, CAPRI: SEE YA!
+<i> Locker </i>
+GOLDIE: 7911... 7912... There!
+ARCHIE: Good locker number.
+GOLDIE: RIGHT!!
+GOLDIE: Just need my books and put my books for tommorrow in here.
+Goldie opens her locker.
+ARCHIE: Sucks that we don't share all classes with them today...
+GOLDIE: RIGHT? Paws, this damn curriculum...
+ARCHIE: I Hope it ends soon-
+GOLDIE: Will I- hm, I only have Biology with you, right?
+ARCHIE: I Think? Yeah, cus then i go with Caspur and Capri, and you get Erin, and then we are all split up.
+GOLDIE: Right!!
+*BELL RINGS*
+GOLDIE: FUVCK-
+GOLDIE: (AAAAAAAHHHHHH NO WAY IM LATE FOR MY FIRST CLASSSSSS!!!)
+//goldie sprite dissapears
+ARCHIE: ...
+ARCHIE: YOU FORGOT TO CLOSE YOUR LOCKER, DOOFUS!!!!!
+<<jump SchoolDay1Endday>>
+===
+
+title: SchoolDay1Endday
+---
+<i> End of School Day </i>
 //timeskip to end of school day, pick between 3 hangouts
+GOLDIE: Phew... finally done...!
 GOLDIE: (Ugh, I haven't had much time to hang out with any of my friends, really...)
 GOLDIE: (Not during the break either, I mean, It's the first day of school, there's not that much to do yet...)
 GOLDIE: (And I still have the rest of the day to go! so...)
@@ -43,17 +84,67 @@ GOLDIE: (I don't see anyone of my friends immediatly, who should I look for?)
     <<jump SchoolDay1Caspur>>
 -> Go to Erin's locker
     <<jump SchoolDay1Erin>>
+-> Go to Archies's locker
+    <<jump SchoolDay1Archie>>
 ===
 title: SchoolDay1Capri
 ---
-GOLDIE: a
+<i> Capri's locker </i>
+GOLDIE: CAPRIIII!!!
+CAPRI: ?
+GOLDIE: WANNA GO TO... GO TO THE MALL?
+CAPRI: Wow? Today? Right now?
+GOLDIE: YES!!!!!!!!
+CAPRI: uuuhm, lemme check...
+GOLDIE: You got nothing, come on, it was the first day of school! nobody makes homework on the first day of school!!
+CAPRI: Goldie, I got math assignments for tommorrow.
+GOLDIE: ...oh.
+GOLDIE: ...okay...
+CAPRI: Which i've already finished.
+GOLDIE: YAAAAYYYY!!!!!!!
+GOLDIE: Let's go!
+<<Transition CapriHangout>>
 ===
 title: SchoolDay1Caspur
 ---
-GOLDIE: a
+<i> Caspur's locker </i>
+GOLDIE: CASPURRRRRRRRR!!!
+CASPUR: Ahem?
+GOLDIE: Waaannnaaa catch up?
+CASPUR: What a coincidence, todays your lucky day!
+GOLDIE: ?
+CASPUR: I got nothing to do, so sure-io!
+GOLDIE: Yay!!
+<<Transition CaspurHangout>>
 ===
 title: SchoolDay1Erin
 ---
-GOLDIE: a
+<i> Erin's locker </i>
+GOLDIE: ERIIIIIIIIINNN!!!
+ERIN: Goldie, sweetie!
+GOLDIE: YOU WANNA HANG OUT? WANNA GO TO THE CITY?
+ERIN: Right... now?
+GOLDIE: yes! Do you have the time? I really wanna catch up!
+ERIN: Sure! ...Should we bring the others along?
+GOLDIE: Oh- uh, I dunno really, You were just the first one i thought of to check on.
+ERIN: Thats very sweet.
+GOLDIE: ...
+ERIN: ...
+GOLDIE: Wanna go?
+ERIN: Alrighty.
+<<Transition ErinHangout>>
+===
+
+title: SchoolDay1Archie
+---
+<i> Archie's locker </i>
+GOLDIE: ARCHIEEEEEE!!!
+GOLDIE: ...no Archie here...
+-> Go to Capri's locker
+    <<jump SchoolDay1Capri>>
+-> Go to Caspurs's locker
+    <<jump SchoolDay1Caspur>>
+-> Go to Erin's locker
+    <<jump SchoolDay1Erin>>
 ===
 
