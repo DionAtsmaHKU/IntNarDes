@@ -2,89 +2,116 @@
 ---
 // << SetLeft GoldieTired or smth >>
 // << SetRight Erin >>
+<<declare $PartOneDone = false>>
 <i> City Centre </i>
 ERIN: *rambling* ...and maybe we can get some ice cream after, doesn’t that sound lovely?
 GOLDIE: ...Mm? Oh yeah, ice cream sounds nice!  
 ERIN: ...
 Goldie: ...
 ERIN:  Are you alright Goldie? You seem a bit... out of it? Quiet?
-GOLDIE: No no I'm alright!!! It's just... loud, you know? Anyway, what did you say you wanted to do?
+GOLDIE: No no I'm alright!!! It's just... loud, you know? 
+ERIN: Yeah... 
+Anyway, what did you say you wanted to do?
 ERIN: Hmm, I want to go get coffee, but I also want to shop for some new tops at Zeeman... What do you think we should do?
 GOLDIE: (Hmm...)
 -> Let's get coffee!! (-1 bone)
     <<set $Bones -= 1>>
-// -> Let's go shopping!! (-2 spoons)
-
-ERIN: Sure, you definitely look like you could use the energy boost! Would you also like a snack maybe? I have some cookies?
-
-GOLDIE: (Hmm...)
--> Sure, thanks Erin!!! 
-    ERIN: Here you are!! Oh, and did you apply sunscreen? It's getting more and more sunny already! You know, even at UV rating 3 it can be useful to-
--> No thanks!
-    ERIN: Alrighty!! Oh, and did you apply sunscreen? It's getting more and more sunny already! You know, even at UV rating 3 it can be useful to-
-
-GOLDIE: (...Seriously?)
--> I did, thanks Erin! 
-
-ERIN: Ah good, good. Okay, let's go!
-<< jump ErinCafe >>
+    << jump ErinCafe >>
+-> Let's go shopping!! (-2 bones)
+    <<set $Bones -= 2>>
+    <<jump ErinShopping>>
 ===
 
 title: ErinCafe
 ---
+<<if $PartOneDone == false>>
+    ERIN: Sure, you definitely look like you could use the energy boost! Would you also like a snack maybe? I have some cookies?
+    GOLDIE: (Hmm...)
+    -> Sure, thanks Erin!!! 
+        ERIN: Here you are!! Oh, and did you apply sunscreen? It's getting more and more sunny already! You know, even at UV rating 3 it can be useful to-
+    -> No thanks!
+        ERIN: Alrighty!! Oh, and did you apply sunscreen? It's getting more and more sunny already! You know, even at UV rating 3 it can be useful to-
+    GOLDIE: (...Seriously?)
+    -> I did, thanks Erin! 
+        ERIN: Ah good, good. Okay, let's go!
+<<else>>
+    ERIN: After that I definitely need some coffee!
+    GOLDIE: 
+<<endif>>
+
+// <<SetBg Cafe>>
 <i> Local Cafe </i>
-
 Goldie: ...
-
 ERIN: So. Goldie! GoGo. G-Dog. Miss Fetch. Let's talk.
-
-GOLDIE: (laughing) "Miss Fetch"? Since when are we on last-name basis "Mx. Hero"? 
-
+GOLDIE: *laughing* "Miss Fetch"? Since when are we on last-name basis "Mx. Hero"? 
 ERIN: I said: Let's talk, Goldie.
-
-GOLDIE: (laughing, nervously now) Mmh? You sound so serious, is everything alright, Rin?
-
+GOLDIE:*laughing, nervously now* Mmh? You sound so serious, is everything alright, Rin?
 ERIN: Well, that's precisely what I wanted to ask you! 
-
 GOLDIE: I'm... fine? I'm chilling! Just having a good ol time with my good ol pal Erin!
-
-ERIN: (Squinting judgingly) ...Are you sure you're okay?
-
+ERIN: *Squinting judgingly* ...Are you sure you're okay?
 GOLDIE: Of course!! This coffee is great by the way, are you enjoying yours?
-
 ERIN: ...
-
 ERIN: ...It's good. 
+<<if $PartOneDone == false>>
+    GOLDIE: (They're clearly still worried...)
+    -> Rin. I'm fine, stop worrying please. (-1 bones)
+    -> ... Well, let's go shopping then! (-2 bones)
+        ERIN: ...Alright, let's go then.
+        <<set $PartOneDone = true>>
+        << jump ErinShopping >>
 
-GOLDIE: (They're clearly still worried...)
--> Rin. I'm fine, stop worrying please. (-1 spoon)
--> ... Well, let's go shopping then! (-2 spoons)
-    ERIN: ...Alright, let's go then.
-    <i> To be continued... </i>
-    << jump SchoolDay2 >>
+    ERIN: Look, I'm sorry!! You just seem a lot quieter than usual, and more tired, and-
+    GOLDIE: (...)
+    -> Erin!!! We've talked about this. You're being a bit much.
+    -> Let's just go shopping, okay? (-2 bones)
+        ERIN: ...Alright, let's go then.
+        <<set $PartOneDone = true>>
+        << jump ErinShopping >>
 
-ERIN: Look, I'm sorry!! You just seem a lot quieter than usual, and more tired, and-
+    ERIN: Argh I know, I know! Sorry. I'm just... worried.
+    GOLDIE: And you don't need to be!! I promise I'm fine! Let's just move on, okay?
+    ERIN: ...
+    ERIN: Okay, okay. Are you... still down for shopping?
+    GOLDIE: (I'm kinda tired, but...)
+    -> Yeah of course!!! Shopping time!!! (-2 bones)
 
-GOLDIE: (...)
--> Erin!!! We've talked about this. You're being a bit much.
--> Let's just go shopping, okay? (-2 spoons)
-    ERIN: ...Alright, let's go then.
-    <i> To be continued... </i>
-    << jump SchoolDay2 >>
+    ERIN: Great!! Let's go then!
+    <<set $PartOneDone = true>>
+    << jump ErinShopping >>
+<<endif>>
+<<jump ErinArgue>>
+===
 
-ERIN: Argh I know, I know! Sorry. I'm just... worried.
+title: ErinShopping
+---
+<<if $PartOneDone == false>>
+    ERIN: Yay! Okay, so I've really been meaning to get more earthy coloured clothes, right? So I'm thinking of getting some more brown pants, maybe some olive coloured tank tops-
+    GOLDIE: -Right, let's just get there first before we go over your entire shopping list, okay?
+    ERIN: RIGHT, sorry! Okay, let's get going!
+<<else>>
+    
+<<endif>>
+===
 
-GOLDIE: And you don't need to be!! I promise I'm fine! Let's just move on, okay?
-
+title: ErinArgue
+---
+// Goldie Angry here?
+GOLDIE: ERIN!!!
+GOLDIE: Come on, it's obvious you've been worried about me all day.
+ERIN: And am I wrong to be worried?? You've been so quiet!
+ERIN: The Goldie I know would be barking my head off about whatever online show you're watching by now-
+GOLDIE: What, so I'm not allowed to be a little tired anymore?
+ERIN: Goldie, that's not what I meant. You just- I'm just worried okay?
+GOLDIE: ...Sorry. I know. I'm just... tired, okay?
+GOLDIE: And you're ALWAYS worried about everyone. Can't I just have a chill no-thoughts head-empty day with my friend?
+ERIN: Right. I'm sorry Goldie, I'll... give you some more space.
+GOLDIE: THANK YOU, that's all I'm asking for here.
 ERIN: ...
-
-ERIN: Okay, okay. Are you... still down for shopping?
-
-GOLDIE: (I'm kinda tired, but...)
--> Yeah of course!!! Shopping time!!! (-2 spoons)
-
-ERIN: Great!! Let's go then!
-
-<i> To be continued... </i>
-<< jump SchoolDay2 >>
+ERIN: Soooooo. Do you wanna stay a bit longer and chat?
+GOLDIE: (...)
+-> I think I need to go home, sorry.
+ERIN: And that's okay!! You should get some rest, don't forget to drink enough water-
+GOLDIE: I knowwww I knowww. Alright, see ya later Erin!
+ERIN: Byeeee! And take care, okay?
+<<jump SchoolDay2>>
 ===

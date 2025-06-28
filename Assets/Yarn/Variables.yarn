@@ -1,7 +1,7 @@
 ﻿title: Variables
 ---
 // This is where we declare our variables :3
-<<declare $Bones = 5>>
+<<declare $Bones = 12>>
 <<declare $HangoutPerson = "ERROR">>
 <<jump Intro>>
 ===
