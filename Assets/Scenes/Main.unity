@@ -175,6 +175,10 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3292657645953925573, guid: 7f29e5f7ffdea4a6793cefb278b61f0c, type: 3}
+      propertyPath: m_Color.a
+      value: 0.92156863
+      objectReference: {fileID: 0}
     - target: {fileID: 3292657647476544605, guid: 7f29e5f7ffdea4a6793cefb278b61f0c, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -207,6 +211,10 @@ PrefabInstance:
       propertyPath: yarnProject
       value: 
       objectReference: {fileID: 7545569452688597077, guid: 6612511e45b22c34b95d5b7f8a51d3e0, type: 3}
+    - target: {fileID: 7778558434911714087, guid: 7f29e5f7ffdea4a6793cefb278b61f0c, type: 3}
+      propertyPath: m_Color.a
+      value: 0.92156863
+      objectReference: {fileID: 0}
     - target: {fileID: 7778558434935992803, guid: 7f29e5f7ffdea4a6793cefb278b61f0c, type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
@@ -795,6 +803,12 @@ MonoBehaviour:
     items:
     - name: TestSprite
       sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    - name: CafeBG
+      sprite: {fileID: 3993791693428615938, guid: 70e55c96517a2a04db91b32acfaf732b, type: 3}
+    - name: CityBG
+      sprite: {fileID: 7268736970228027949, guid: 86b766ff03de07b4babc617e156a8868, type: 3}
+    - name: ShopBG
+      sprite: {fileID: 2051466355819812112, guid: 96f026f447d686547bdbe53790ed711c, type: 3}
 --- !u!1 &1573146774
 GameObject:
   m_ObjectHideFlags: 0

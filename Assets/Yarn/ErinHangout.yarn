@@ -2,6 +2,7 @@
 ---
 // << SetLeft GoldieTired or smth >>
 // << SetRight Erin >>
+<<SetBg CityBG>>
 <<declare $PartOneDone = false>>
 <i> City Centre </i>
 ERIN: *rambling* ...and maybe we can get some ice cream after, doesn’t that sound lovely?
@@ -16,13 +17,13 @@ ERIN: Hmm, I want to go get coffee, but I also want to shop for some new tops at
 GOLDIE: (Hmm...)
 -> Let's get coffee!! (-1 bone)
     <<set $Bones -= 1>>
-    << jump ErinCafe >>
+    << jump ErinCafeStart >>
 -> Let's go shopping!! (-2 bones)
     <<set $Bones -= 2>>
-    <<jump ErinShopping>>
+    <<jump ErinShoppingStart>>
 ===
 
-title: ErinCafe
+title: ErinCafeStart
 ---
 <<if $PartOneDone == false>>
     ERIN: Sure, you definitely look like you could use the energy boost! Would you also like a snack maybe? I have some cookies?
@@ -38,8 +39,12 @@ title: ErinCafe
     ERIN: After that I definitely need some coffee!
     GOLDIE: 
 <<endif>>
+<<Transition ErinCafe>>
+===
 
-// <<SetBg Cafe>>
+title: ErinCafe
+---
+<<SetBg CafeBG>>
 <i> Local Cafe </i>
 Goldie: ...
 ERIN: So. Goldie! GoGo. G-Dog. Miss Fetch. Let's talk.
@@ -58,7 +63,7 @@ ERIN: ...It's good.
     -> ... Well, let's go shopping then! (-2 bones)
         ERIN: ...Alright, let's go then.
         <<set $PartOneDone = true>>
-        << jump ErinShopping >>
+        << jump ErinShoppingStart >>
 
     ERIN: Look, I'm sorry!! You just seem a lot quieter than usual, and more tired, and-
     GOLDIE: (...)
@@ -66,7 +71,7 @@ ERIN: ...It's good.
     -> Let's just go shopping, okay? (-2 bones)
         ERIN: ...Alright, let's go then.
         <<set $PartOneDone = true>>
-        << jump ErinShopping >>
+        << jump ErinShoppingStart >>
 
     ERIN: Argh I know, I know! Sorry. I'm just... worried.
     GOLDIE: And you don't need to be!! I promise I'm fine! Let's just move on, okay?
@@ -77,20 +82,26 @@ ERIN: ...It's good.
 
     ERIN: Great!! Let's go then!
     <<set $PartOneDone = true>>
-    << jump ErinShopping >>
+    << jump ErinShoppingStart >>
 <<endif>>
 <<jump ErinArgue>>
 ===
 
-title: ErinShopping
+title: ErinShoppingStart
 ---
 <<if $PartOneDone == false>>
     ERIN: Yay! Okay, so I've really been meaning to get more earthy coloured clothes, right? So I'm thinking of getting some more brown pants, maybe some olive coloured tank tops-
     GOLDIE: -Right, let's just get there first before we go over your entire shopping list, okay?
     ERIN: RIGHT, sorry! Okay, let's get going!
-<<else>>
-    
 <<endif>>
+<<Transition ErinShopping>>
+===
+
+title: ErinShopping
+---
+<<SetBg ShopBG>>
+GOLDIE: yo we shoppin'
+ERIN: so true bestie
 ===
 
 title: ErinArgue
