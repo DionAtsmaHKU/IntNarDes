@@ -1,25 +1,18 @@
 ﻿title: ErinHangout
-tags:
-position: -25,-170
 ---
+// << SetLeft GoldieTired or smth >>
+// << SetRight Erin >>
 <i> City Centre </i>
-
-ERIN: (rambling) ...and maybe we can get some ice cream after, doesn’t that sound lovely?
-
-GOLDIE: ...Mm? Oh yeah, ice cream sounds nice! 
-
+ERIN: *rambling* ...and maybe we can get some ice cream after, doesn’t that sound lovely?
+GOLDIE: ...Mm? Oh yeah, ice cream sounds nice!  
 ERIN: ...
-
 Goldie: ...
-
 ERIN:  Are you alright Goldie? You seem a bit... out of it? Quiet?
-
 GOLDIE: No no I'm alright!!! It's just... loud, you know? Anyway, what did you say you wanted to do?
-
 ERIN: Hmm, I want to go get coffee, but I also want to shop for some new tops at Zeeman... What do you think we should do?
-
 GOLDIE: (Hmm...)
--> Let's get coffee!! (-1 spoon)
+-> Let's get coffee!! (-1 bone)
+    <<set $Bones -= 1>>
 // -> Let's go shopping!! (-2 spoons)
 
 ERIN: Sure, you definitely look like you could use the energy boost! Would you also like a snack maybe? I have some cookies?
@@ -38,7 +31,6 @@ ERIN: Ah good, good. Okay, let's go!
 ===
 
 title: ErinCafe
-position: -24,28
 ---
 <i> Local Cafe </i>
 
@@ -69,7 +61,7 @@ GOLDIE: (They're clearly still worried...)
 -> ... Well, let's go shopping then! (-2 spoons)
     ERIN: ...Alright, let's go then.
     <i> To be continued... </i>
-    << jump Act2placeholder >>
+    << jump SchoolDay2 >>
 
 ERIN: Look, I'm sorry!! You just seem a lot quieter than usual, and more tired, and-
 
@@ -78,7 +70,7 @@ GOLDIE: (...)
 -> Let's just go shopping, okay? (-2 spoons)
     ERIN: ...Alright, let's go then.
     <i> To be continued... </i>
-    << jump Act2placeholder >>
+    << jump SchoolDay2 >>
 
 ERIN: Argh I know, I know! Sorry. I'm just... worried.
 
@@ -94,11 +86,5 @@ GOLDIE: (I'm kinda tired, but...)
 ERIN: Great!! Let's go then!
 
 <i> To be continued... </i>
-<< jump Act2placeholder >>
-===
-
-title: Act2placeholder
-position: -21,233
----
-
+<< jump SchoolDay2 >>
 ===
