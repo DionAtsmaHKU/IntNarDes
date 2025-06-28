@@ -809,6 +809,42 @@ MonoBehaviour:
       sprite: {fileID: 7268736970228027949, guid: 86b766ff03de07b4babc617e156a8868, type: 3}
     - name: ShopBG
       sprite: {fileID: -2789224913058894284, guid: dbd051ba9abbdc34b8cc63a2a4e78916, type: 3}
+    - name: GoldieHappy
+      sprite: {fileID: 4973398057775398098, guid: 1039173efe6a3ff4a8a22514b50e9851, type: 3}
+    - name: GoldieSad
+      sprite: {fileID: 8393709302439778295, guid: 58c2e1a83b0230f438e7a1e9c0aaf813, type: 3}
+    - name: GoldieSadPlus
+      sprite: {fileID: -3778608570655113463, guid: fb665d53c8f4f55489779970fd8e88de, type: 3}
+    - name: GoldieOkay
+      sprite: {fileID: -902695542110732402, guid: f56e480e84c89d6439a56e4b7e0d2a7b, type: 3}
+    - name: GoldieAngry
+      sprite: {fileID: -7178772692366325350, guid: 2cc5e711d102cc54caf3c497d338bc3f, type: 3}
+    - name: GoldieAngryPlus
+      sprite: {fileID: 8311163604965473415, guid: ad34f611ec3d86d42a0f6a11e38c477c, type: 3}
+    - name: GoldieFake
+      sprite: {fileID: 8302766482470094222, guid: 962e590adb49167408b86f4cf73be126, type: 3}
+    - name: CaspurNormal
+      sprite: {fileID: -2115817567080673846, guid: c1673a6462554bc4eb40ea949c5dba34, type: 3}
+    - name: ErinNormal
+      sprite: {fileID: -3649760085355781004, guid: 59aef2cca08730246b0644997c1ba7fb, type: 3}
+    - name: CapriNormal
+      sprite: {fileID: 5396539277952813881, guid: 07d9ceaa46eead64395f463d2d2eceae, type: 3}
+    - name: CapriNormalGlasses
+      sprite: {fileID: 4556892446239356572, guid: 5002368d65b40b943b07b1b3325ac896, type: 3}
+    - name: CapriSweater
+      sprite: {fileID: -4445291669021518292, guid: 2492af3f3f87dd44d9a9381036fcf3b5, type: 3}
+    - name: ArchieHappy
+      sprite: {fileID: -1009880364408959644, guid: dd67c7ab6a0b37b4393d546f51fdba22, type: 3}
+    - name: ArchieHappyGlasses
+      sprite: {fileID: 4614980591030406731, guid: 417d6a249c41c9344919b09016dd8004, type: 3}
+    - name: ArchieAngry
+      sprite: {fileID: -3566285331582543070, guid: 72288f69022aa1747bae7658211f0000, type: 3}
+    - name: ArchieAngryGlasses
+      sprite: {fileID: -6208414008691669920, guid: 424879a4450ebc5478cc46a3ffb95b60, type: 3}
+    - name: BigSisNormal
+      sprite: {fileID: 1305493358323203798, guid: 1706dd967ca6c9046a989c4691e4c937, type: 3}
+    - name: BigSisHappy
+      sprite: {fileID: 5010454698848748732, guid: 9cb78846727976748a1cd5958a98a785, type: 3}
 --- !u!1 &1573146774
 GameObject:
   m_ObjectHideFlags: 0
