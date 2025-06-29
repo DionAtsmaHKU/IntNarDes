@@ -17,7 +17,7 @@ ERIN: Anyway, what did you say you wanted to do?
 ERIN: Hmm, I want to go get coffee, but I also want to shop for some new tops at Zeeman... What do you think we should do?
 << SetLeft GoldieOkay >>
 GOLDIE: (Hmm...)
--> Let's get coffee!! (-1 bone)
+-> Let's get coffee!! (-1 bone) <<if $Bones > 123>>
     <<set $Bones -= 1>>
     << jump ErinCafeStart >>
 -> Let's go shopping!! (-2 bones)

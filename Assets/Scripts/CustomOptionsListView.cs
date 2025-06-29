@@ -13,7 +13,7 @@ namespace Yarn.Unity
     {
         [SerializeField] CanvasGroup canvasGroup;
 
-        [SerializeField] OptionView optionViewPrefab;
+        [SerializeField] CustomOptionView optionViewPrefab;
 
         [SerializeField] MarkupPalette palette;
 
@@ -29,7 +29,7 @@ namespace Yarn.Unity
         [SerializeField] GameObject lastLineCharacterNameContainer;
 
         // A cached pool of OptionView objects so that we can reuse them
-        List<OptionView> optionViews = new List<OptionView>();
+        List<CustomOptionView> optionViews = new List<CustomOptionView>();
 
         // The method we should call when an option has been selected.
         Action<int> OnOptionSelected;
@@ -84,8 +84,15 @@ namespace Yarn.Unity
 
                 optionView.palette = this.palette;
                 optionView.Option = option;
+
                 if (option.IsAvailable == false && showUnavailableOptions == true)
-                    optionView.GetComponent<TextMeshProUGUI>().color = Color.grey;
+                {
+                    optionView.text.color = Color.grey;
+                }  
+                else
+                {
+                    optionView.text.color = Color.white;
+                }
 
                 // The first available option is selected by default
                 if (optionViewsCreated == 0)
@@ -152,7 +159,7 @@ namespace Yarn.Unity
             /// Creates and configures a new <see cref="OptionView"/>, and adds
             /// it to <see cref="optionViews"/>.
             /// </summary>
-            OptionView CreateNewOptionView()
+            CustomOptionView CreateNewOptionView()
             {
                 var optionView = Instantiate(optionViewPrefab);
                 optionView.transform.SetParent(transform, false);
