@@ -3,6 +3,8 @@ tags:
 ---
 //exit bus, set bg to school entrance
 <<SetBg BusStopMorningBG>>
+<<SetLeft GoldieHappy>>
+<<SetRight ArchieHappy>>
 <i>BUS STOP - Canine Avenue</i>
 Our school is right around the corner, Claw Academy; the biggest high school of the state!
 Think of an entire arena filled with people... now cram them into a 5-story building! Paws, its SOOO big! //voor dion; ja mijn inspiratiebron is nicolaas

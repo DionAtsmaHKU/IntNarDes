@@ -13,18 +13,24 @@ I close the door behind me, put my sneakers on and take a good look onto the str
 <<SetLeft GoldieHappy>>
 //introduction/scene buildup, goldie introduction. background is now outside of house
 ...It's the first day of school after spring break!
-<<SetLeft GoldieOkay>>
+<<SetLeft GoldieFake>>
 It's a beautiful day outside, the sun is shining, the birds are singing their morning songs, the flowers are blooming brightly with the sunrise...
 //set sprite Goldie in middle now
+<<SetLeft GoldieHappy>>
 ...and I, Goldie, am SO READY TO START UP SCHOOL AGAIN!!!
 <<SetBg HouseStreetMorningBG>>
+<<SetLeft GoldieFake>>
 The spring breeze is hitting me gently as im walking to the bus stop. I see teens my age walk to the stop too, some i recognize from Miss Apples class, others from miss Jeans...
 I'm not that much of a school person, It's not like I'm a nerd for grades or anything in Claw Academy, it's just...
+<<SetLeft GoldieSad>>
 ...I miss my friends, really! Caspur, Capri, Erin...
 //bump into Archie
 <<SetBg BusStopMorningBG>>
+<<SetLeft GoldieFake>>
 GOLDIE: ...Archie? //whispering
 As I get to the bus stop, I see a familiar face peek through the glass walls...
+<<SetLeft GoldieHappy>>
+<<SetRight ArchieHappy>>
 GOLDIE: ARCHIE!!!
 ARCHIE: GOLDIE!!!
 I Jump into their arms and they jump into mine and we give eachother a big ol' hug!
@@ -32,7 +38,9 @@ GOLDIE: Good to see you, girl!! //gender neutral tone tag
 //entering convo on what you did in spring break
 ARCHIE: You too, you too! How've you been?
 GOLDIE: Oh ive been great! Just spending the days working around the house, relaxing, baking, baking again, walking along the pier, baking again again, watching stuff on Cats Eye TV Plus, you now? the new show Weevilance is SO good! Oh I gotta tell you all about it-
+<<SetRight ArchieAngry>>
 ARCHIE: Yo, breathe!!
+<<SetRight ArchieHappy>>
 ARCHIE: We can catch up during miss Jeans's class, no worries, dude.
 GOLDIE: That's true! But have you watched it? Have you??
 ARCHIE: Weevilance?
@@ -47,17 +55,23 @@ ARCHIE: Lets go.
 title: IntroBus
 ---
 <<SetBg BusBG>>
+<<SetLeft GoldieFake>>
 We both enter the bus and get a seat next to eachother. as the bus departs...
 -> Continue the conversation
+    <<SetLeft GoldieHappy>>
     GOLDIE: So how've you been, what about you? Tell me all about it!
 -> Look outside
+    <<SetLeft GoldieSad>>
     I try to see my house from the distance, maybe its over there? maybe Mom is waving the bus off or her car is going out of the gara-
+    <<SetRight ArchieAngry>>
     ARCHIE: -So are you not gonna ask what ive done?
+    <<SetLeft GoldieHappy>>
     GOLDIE: OHH!! Uuuuhhmmm- yeah! Paws, right! What about you, girlie? what did you do?
+<<SetRight ArchieHappy>>
 ARCHIE: Well ive been at it on Lokémob Neon-
 GOLDIE: Lokémob?
 ARCHIE: yeah, completing my collection on the game and all that, post-game content- just been grinding on that.
-GOLDIE: Awesome!!
+GOLDIE: Pawesome!!
 ARCHIE: Other then that, drawing sometimes and egh, homework...
 GOLDIE: Oh SO REAL. I didn't bother touching that at all-
 ARCHIE: Yeah because you're just smart.
@@ -70,7 +84,9 @@ ARCHIE: ...Herbert? //this is in fact a reference to herbert p bear from club pe
 GOLDIE: Yeah, that guy!! mister "highest grade of your year" Herbert!
 Archie chuckles, then clears their throat.
 ARCHIE: "And for this years Prom-nerd king and queen the votes go to..."
+<<SetLeft GoldieAngry>>
 GOLDIE: !!!
+<<SetLeft GoldieAngryPlus>>
 GOLDIE: SHUT UP SHUT UP SHUT UPPPP!!! //embarrased blush sprite
 <<Transition SchoolDay1>>
 ===
