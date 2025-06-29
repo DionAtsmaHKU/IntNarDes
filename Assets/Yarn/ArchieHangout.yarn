@@ -3,7 +3,9 @@ tags:
 ---
 // Goldie meets up with Opposum for a hangout.
 // It goes awry as they start having an argument with eachother.
-
+<<SetLeft Empty>>
+<<SetRight Empty>>
+//<<SetBg >> //Classroom
 <i> Claw Academy Hallways </i>
 
 TEACHER: ...and don't forget to read the next chapter before next week! 
@@ -13,13 +15,23 @@ TEACHER: In a few months you will all be seniors so it's time to get serious abo
 <i> The bell rings </i>
 
 Goldie slowly gets up to pack her bag, lost in her own thoughts.
+<<Transition ArchieLockers>>
+===
+title:ArchieLockers
+
+---
+//<<SetBg >> //Hallway
+
 // School ends for the day, we see goldie coming out of class, going to their locker and collecting their thoughts 
 // (about yesterdays arguments)
 <i> In front of Goldie's locker </i>
-GOLDIE: (Sighs..) What do I do...
+<<SetLeft GoldieOkay>>
+GOLDIE: *Sighs..* What do I do...
+<<SetLeft GoldieSadPlus>>
 GOLDIE: This week has only just started and I'm already sooooo tired.
 GOLDIE: Gotta keep strong Goldie! I just need to hold on a little longer!!
 
+<<SetLeft GoldieHappy>>
 GOLDIE: ...7913.. yes got it!
 Goldie opens her locker 
 GOLDIE: (hmm... should I bring my books with me so I can work on homework tonight? They are pretty heavy though...)
@@ -29,49 +41,77 @@ GOLDIE: (hmm... should I bring my books with me so I can work on homework tonigh
 GOLDIE: OH SHOOT!! 
 GOLDIE: Archie's probably waiting for me by now, I should go find them!
 
+<<Transition ArchieHangoutOutside>>
+===
+title:ArchieHangoutOutside
+---
+<<SetLeft Empty>>
+<<SetRight Empty>>
+//<<SetBg >> //SchoolGrounds
+
 // goldie walks out of the building and finds Archie on the steps (maybe with some cool skater bros)
 <i> On the school grounds of Claw Academy </i>
 
 You see Archie outside leaning against a railing, laughing with their friends. 
 One of them is doing a cool trick with his skateboard.. you think... you don't really know anything about skateboards..
+<<SetRight ArchieHappyGlasses>>
 ARCHIE:... Hahaha that's so sick man! Dude!! do an Ollie next, THAT would be AWESOME.
+<<SetLeft GoldieHappy>>
 GOLDIE: ARCHIE!!!
+
+<<SetRight ArchieAngryGlasses>>
 ...
+<<SetLeft GoldieFake>>
 GOLDIE: (Huh?)
+<<SetRight ArchieHappyGlasses>>
 ARCHIE: Ohhh.. Hey..
 ARCHIE: What's up dude!
 GOLDIE: (that was awkward??) ...
 GOLDIE: hey.. uhh.. dude. 
-GOLDIE: (laughing nervously now) How's it hanging fam? (Did I do that right??)
-ARCHIE: (chuckles) Uhmm.. yeah good! Anyway.. have you met the squad yet Goldie? These guys are legit!! 
+GOLDIE: *laughing nervously now* How's it hanging fam? (Did I do that right??)
+ARCHIE: *chuckles* Uhmm.. yeah good! Anyway.. have you met the squad yet Goldie? These guys are legit!! 
+<<SetLeft GoldieHappy>>
 GOLDIE: Oh I haven't yet! HI GUYS!! I'M GOLDIE!! (I was worried about nothing, these guys look nice!)
 
+<<SetLeft Empty>>
+<<SetRight Empty>>
 ???: 'Sup Goldster..
 ???: Woah.. She's loud man. 
-???: (Punches his friend) shhhh.. Shut up dude!!
+???: *Punches his friend* shhhh.. Shut up dude!!
+
+<<SetLeft GoldieHappy>>
 GOLDIE: Anyway.. I'M SO EXCITED FOR TONIGHT ARCHIE!! 
 GOLDIE: Are you guys almost done with your Olivers or ollers? You know.. those skate thingies..? 
-GOLDIE: CAUSE I CAN'T WAIT ANY LONGER (barks from excitement).
+GOLDIE: CAUSE I CAN'T WAIT ANY LONGER *barks from excitement*.
 GOLDIE: Archieboo!! I NEEEED to talk about last night's episode. It was sooooo good!
-GOLDIE: (Acts dramatically) THE ROMANCE, THE BETRAYAL and most of all THE TREATS!! I mean it's in the name 'Treats basket' come on!!
+GOLDIE: *Acts dramatically* THE ROMANCE, THE BETRAYAL and most of all THE TREATS!! I mean it's in the name 'Treats basket' come on!!
 
 Archie turns multiple shades of pink that have yet to be discovered by Pawkind.
 
+<<SetRight ArchieAngryGlasses>>
 ARCHIE: OKAYLETSGOGOLDIE.. BYEGUYSSEEYOUNEVERIGUESS
 
 Archie snatches goldie's paw and hastily walks away.
 // Archie gets embarrassed and want to go
-<<jump ArchiesBusride >>
+<<Transition ArchieBusStop >>
 ===
 
-title: ArchiesBusride
+title: ArchieBusStop
 position: 5,195
 ---
+<<SetLeft Empty>>
+<<SetRight Empty>>
+//<<SetBg >> //Bus stop
 <i> At the bus stop </i>
 
+<<SetLeft GoldieOkay>>
 GOLDIE: (I should lighten the mood a bit) Hey, so where are we going again Arch?
-ARCHIE: (Sighs..) It was supposed to be a surprise Goldie!
+<<SetLeft GoldieFake>>
+<<SetRight ArchieAngryGlasses>>
+ARCHIE: *Sighs..* It was supposed to be a surprise Goldie!
+<<SetRight ArchieHappyGlasses>>
 ARCHIE: I saw a post on WeevilbooChat that the cast of 'Treats Basket'...
+<<SetLeft GoldieHappy>>
 GOLDIE: OH MY GOD OHMYGOD.
 ARCHIE: Dude let me finish..  anyway they're at the town fair tonight! So I wanted to take you as a surprise.
 GOLDIE: NO FREAKING WAY ARCH..
@@ -80,43 +120,58 @@ ARCHIE: YES FREAKING WAY DUDE!
 
 It seems like Goldie's spark of enthousiasm strikes Archie, who seems to suddenly beam from ear to ear.
 
-GOLDIE: (bouncing from excitement) GIRL I CAN'T WAIT, Arch we DEFINITELY have to ask them what they think of their character's yuri love triangle!!
+GOLDIE: *bouncing from excitement* GIRL I CAN'T WAIT, Arch we DEFINITELY have to ask them what they think of their character's yuri love triangle!!
 ARCHIE: HELL YEAH DUDE AND ALSO ABOUT-
 
 <i> The bus pulls up right next to the pair </i>
 And just as fast as that excitement grew it could also be taken away.
+<<Transition ArchieBusride >>
 
-ARCHIE:(He whispers) -uhm.. the uhm.. poly ship.. hey look The bus is here, let's go..
+===
+title: ArchieBusride
+position: 5,195
+---
+<<SetLeft Empty>>
+//<<SetBg >> //Bus
+
+<<SetRight ArchieAngryGlasses>>
+ARCHIE:*He whispers* -uhm.. the uhm.. poly ship.. hey look The bus is here, let's go..
 
 The pair enter the bus, Goldie seems to hardly be able to contain her excitement, giggling every few seconds or so.
-ARCHIE: (quietly) Hey dude cut it out. shhh.
+ARCHIE: *quietly* Hey dude cut it out. shhh.
 
+<<SetLeft GoldieHappy>>
 Goldie's giggling gets louder almost turning into cackling (which seems very fitting for this unhinged and obsessed yuri consumer).
-GOLDIE: (With tears in her eyes /pos) I just.. OMG ARCH.. IMAGINE THEIR FACES when we ask about the poly ship!!
+GOLDIE: *With tears in her eyes* I just.. OMG ARCH.. IMAGINE THEIR FACES when we ask about the poly ship!!
 ARCHIE: SHHH Goldie shut up pleaseeee..
 GOLDIE: (hmm?) WHAT'S WRONG GIRL? (Shit! volume control Goldie..)
-ARCHIE: (Hushed yelling) GOD YOU ARE SO EMBARRASSING SHHH!
+ARCHIE: *Hushed yelling* GOD YOU ARE SO EMBARRASSING SHHH!
 
 Archie glows bright red while trying to hide in their jacket, hoping to become invisible to the rest of the world.
+<<SetLeft GoldieSad>>
 GOLDIE: (Did I do something wrong??)...
-GOLDIE: (In a normal volume) hey... Archieboo... did I say something bad? (starts rambling) You know I have a habit of not noticing that kinda-
+<<SetLeft GoldieOkay>>
+GOLDIE: *In a normal volume* hey... Archieboo... did I say something bad? (starts rambling) You know I have a habit of not noticing that kinda-
 Archie cuts her off
 ARCHIE: stop.
 GOLDIE: What.. I..
 ARCHIE: everything you say is embarrasing Goldie... Can't you see those people staring...
 
 Goldie looks up and dozens of heads turn away in a blink of the eye.
-GOLDIE: (Tears start forming) Hey..
-ARCHIE: (whispers) You totally humiliated me in front of my friends Goldie..
-ARCHIE: (Whispers turning into hushed yelling) I am NOT your Archieboo Goldie.. I am NOT your GIRL... I worked way to hard for that.. And I'm NOT a freaking NERD like you.
+<<SetLeft GoldieSad>>
+GOLDIE: *Tears start forming* Hey..
+ARCHIE: *whispers* You totally humiliated me in front of my friends Goldie..
+ARCHIE: *Whispers turning into hushed yelling* I am NOT your Archieboo Goldie.. I am NOT your GIRL... I worked way to hard for that.. And I'm NOT a freaking NERD like you.
 ARCHIE: God.. Why don't you ever just stop and think. You're always screaming and being YOU... You are just way too much YOU.
 
 GOLDIE: (Why is this happening..? I thought we were having a good time..)
 GOLDIE: (Why is this ALWAYS happening... I need to respond..)
 -> Atleast I'm not hiding... I'm still me.. (-2 Spoons)
+    <<SetLeft GoldieAngry>>
     GOLDIE: Why can't you just geek out with me like before?
     GOLDIE: What did I do to make you so ashamed of me??
     GOLDIE: I- I thought you were my friend... But you don't even wanna be seen with me..
+    <<SetLeft GoldieSad>>
     GOLDIE: I gotta go.. hope you have fun at the fair Arch..
 -> Arch you know you can always talk to me.. (-1 Spoons)
     ARCHIE: It's not that simple Goldie.. You can just be a 100% you..
@@ -131,5 +186,5 @@ GOLDIE: (Why is this ALWAYS happening... I need to respond..)
 Goldie gets up and leaves the bus
 
 //Ends with goldie running away
-
+<<Transition Act3>>
 ===
