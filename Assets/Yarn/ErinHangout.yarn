@@ -1,7 +1,7 @@
 ﻿title: ErinHangout
 ---
-// << SetLeft GoldieTired or smth >>
-// << SetRight Erin >>
+<< SetLeft GoldieOkay >>
+<< SetRight ErinNormal >>
 <<SetBg CityBG>>
 <<declare $PartOneDone = false>>
 <i> City Centre </i>
@@ -10,10 +10,12 @@ GOLDIE: ...Mm? Oh yeah, ice cream sounds nice!
 ERIN: ...
 Goldie: ...
 ERIN:  Are you alright Goldie? You seem a bit... out of it? Quiet?
+<< SetLeft GoldieFake >>
 GOLDIE: No no I'm alright!!! It's just... loud, you know? 
 ERIN: Yeah... 
 ERIN: Anyway, what did you say you wanted to do?
 ERIN: Hmm, I want to go get coffee, but I also want to shop for some new tops at Zeeman... What do you think we should do?
+<< SetLeft GoldieOkay >>
 GOLDIE: (Hmm...)
 -> Let's get coffee!! (-1 bone)
     <<set $Bones -= 1>>
@@ -26,18 +28,17 @@ GOLDIE: (Hmm...)
 title: ErinCafeStart
 ---
 <<if $PartOneDone == false>>
+    <<SetLeft GoldieOkay>>
     ERIN: Sure, you definitely look like you could use the energy boost! Would you also like a snack maybe? I have some cookies?
     GOLDIE: (Hmm...)
     -> Sure, thanks Erin!!! 
         ERIN: Here you are!! Oh, and did you apply sunscreen? It's getting more and more sunny already! You know, even at UV rating 3 it can be useful to-
     -> No thanks!
         ERIN: Alrighty!! Oh, and did you apply sunscreen? It's getting more and more sunny already! You know, even at UV rating 3 it can be useful to-
+    << SetLeft GoldieFake >>
     GOLDIE: (...Seriously?)
     -> I did, thanks Erin! 
         ERIN: Ah good, good. Okay, let's go!
-<<else>>
-    ERIN: After that I definitely need some coffee!
-    GOLDIE: Me too, let's go!!
 <<endif>>
 <<Transition ErinCafe>>
 ===
@@ -45,12 +46,14 @@ title: ErinCafeStart
 title: ErinCafe
 ---
 <<SetBg CafeBG>>
+<<SetLeft GoldieSad>>
 <i> Local Cafe </i>
 Goldie: ...
 ERIN: So. Goldie! GoGo. G-Dog. Miss Fetch. Let's talk.
 GOLDIE: *laughing* "Miss Fetch"? Since when are we on last-name basis "Mx. Hero"? 
 ERIN: I said: Let's talk, Goldie.
 GOLDIE:*laughing, nervously now* Mmh? You sound so serious, is everything alright, Rin?
+<<SetLeft GoldieFake>>
 ERIN: Well, that's precisely what I wanted to ask you! 
 GOLDIE: I'm... fine? I'm chilling! Just having a good ol time with my good ol pal Erin!
 ERIN: *Squinting judgingly* ...Are you sure you're okay?
@@ -58,6 +61,7 @@ GOLDIE: Of course!! This coffee is great by the way, are you enjoying yours?
 ERIN: ...
 ERIN: ...It's good. 
 <<if $PartOneDone == false>>
+    <<SetLeft GoldieOkay>>
     GOLDIE: (They're clearly still worried...)
     -> Rin. I'm fine, stop worrying please. (-1 bones)
         <<set $Bones -= 1>>
@@ -104,6 +108,7 @@ title: ErinShoppingStart
 title: ErinShopping
 ---
 <<SetBg ShopBG>>
+<<SetLeft GoldieOkay>>
 <i> Zeeman Clothing Shop </i>
 ERIN: WOW, there's just so much to buy... maybe this could fit you, Goldie!
 GOLDIE: (We've been at it for so long, I'm just waiting to leave at this point...)
@@ -114,6 +119,7 @@ GOLDIE: (Ugh, I can't focus...)
 GOLDIE: (The store is so cramped and the customers are so loud...)
 GOLDIE: (I just wanna lie down and roll over honestly...)
 ERIN: ...and that too of course. Wait, were you even listening?
+<<SetLeft GoldieFake>>
 GOLDIE: OOPS, sorry haha... I'm just a bit tired, okay?
 ERIN: ...A bit tired? is that all there is to it?
 <<if $PartOneDone == true>>
@@ -127,7 +133,7 @@ GOLDIE: (Come on...)
     ERIN: But-
 -> YEP! Though I could really go for some coffee right about now! (-2 bones)
     <<set $Bones -= 2>>
-
+<<SetLeft Empty>>
 <i> Before Erin can say anything, Goldie sprints outside </i>
 ERIN: ...Alright, I guess I'll pay for this first? WAIT FOR ME GOLDIE-
 <<set $PartOneDone = true>>
@@ -136,7 +142,7 @@ ERIN: ...Alright, I guess I'll pay for this first? WAIT FOR ME GOLDIE-
 
 title: ErinArgue
 ---
-// Goldie Angry here?
+<<SetLeft GoldieAngry>>
 GOLDIE: ERIN!!!
 GOLDIE: Come on, it's obvious you've been worried about me all day.
 ERIN: And am I wrong to be worried?? You've been so quiet!
@@ -147,6 +153,7 @@ GOLDIE: ...Sorry. I know. I'm just... tired, okay?
 GOLDIE: And you're ALWAYS worried about everyone. Can't I just have a chill no-thoughts head-empty day with my friend?
 ERIN: Right. I'm sorry Goldie, I'll... give you some more space.
 GOLDIE: THANK YOU, that's all I'm asking for here.
+<<SetLeft GoldieOkay>>
 ERIN: ...
 ERIN: Soooooo. Do you wanna stay a bit longer and chat?
 GOLDIE: (...)
