@@ -22,11 +22,23 @@ public class PortraitsBackgrounds : MonoBehaviour
 
     private void SetLeftPortrait(string s)
     {
+        if (s == "Empty")
+        {
+            leftPortrait.sprite = null;
+            return;
+        }
+
         leftPortrait.sprite = spritesDict[s];
     }
 
     private void SetRightPortrait(string s)
     {
+        if (s == "Empty")
+        {
+            rightPortrait.sprite = null;
+            return;
+        }
+
         rightPortrait.sprite = spritesDict[s];
     }
 

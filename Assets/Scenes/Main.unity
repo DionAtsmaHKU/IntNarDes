@@ -808,7 +808,7 @@ MonoBehaviour:
     - name: CityBG
       sprite: {fileID: 7268736970228027949, guid: 86b766ff03de07b4babc617e156a8868, type: 3}
     - name: ShopBG
-      sprite: {fileID: -2789224913058894284, guid: dbd051ba9abbdc34b8cc63a2a4e78916, type: 3}
+      sprite: {fileID: -6706979566216755096, guid: 2d40b831ddb74074d88c33a2b25215e4, type: 3}
     - name: GoldieHappy
       sprite: {fileID: 4973398057775398098, guid: 1039173efe6a3ff4a8a22514b50e9851, type: 3}
     - name: GoldieSad
