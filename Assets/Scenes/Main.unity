@@ -875,11 +875,11 @@ MonoBehaviour:
     - name: ErinNormal
       sprite: {fileID: -3649760085355781004, guid: 59aef2cca08730246b0644997c1ba7fb, type: 3}
     - name: CapriNormal
-      sprite: {fileID: 5396539277952813881, guid: 07d9ceaa46eead64395f463d2d2eceae, type: 3}
+      sprite: {fileID: 3976540408748973135, guid: 07d9ceaa46eead64395f463d2d2eceae, type: 3}
     - name: CapriNormalGlasses
-      sprite: {fileID: 4556892446239356572, guid: 5002368d65b40b943b07b1b3325ac896, type: 3}
+      sprite: {fileID: -1556611369416358025, guid: 5002368d65b40b943b07b1b3325ac896, type: 3}
     - name: CapriSweater
-      sprite: {fileID: -4445291669021518292, guid: 2492af3f3f87dd44d9a9381036fcf3b5, type: 3}
+      sprite: {fileID: 3248769410294174792, guid: 2492af3f3f87dd44d9a9381036fcf3b5, type: 3}
     - name: ArchieHappy
       sprite: {fileID: -1009880364408959644, guid: dd67c7ab6a0b37b4393d546f51fdba22, type: 3}
     - name: ArchieHappyGlasses
@@ -919,7 +919,7 @@ MonoBehaviour:
     - name: SchoolInsideBG
       sprite: {fileID: 1352861904527676885, guid: 4cb8acb0bfa5e71448a4ad7f63da584c, type: 3}
     - name: SchoolLockerBG
-      sprite: {fileID: 2663597312520548336, guid: b9617256b4a7ca949a8b7b50e59161ae, type: 3}
+      sprite: {fileID: -4727843161079986260, guid: bc2ea5e939c56bf4c9ec82e2e90c8e90, type: 3}
     - name: SchoolClassroomBG
       sprite: {fileID: 6495823959225063446, guid: dbc405800d9779147819e3c2d74169bc, type: 3}
     - name: SchoolPromHallBG

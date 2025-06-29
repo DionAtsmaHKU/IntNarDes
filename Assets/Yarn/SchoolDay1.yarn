@@ -2,35 +2,50 @@ title: SchoolDay1
 tags:
 ---
 //exit bus, set bg to school entrance
-<<SetBg BusStopMorningBG>>
-<<SetLeft GoldieHappy>>
+<<SetBg SchoolLockerBG>>
+<<SetLeft GoldieOkay>>
 <<SetRight ArchieHappy>>
 <i>BUS STOP - Canine Avenue</i>
 Our school is right around the corner, Claw Academy; the biggest high school of the state!
 Think of an entire arena filled with people... now cram them into a 5-story building! Paws, its SOOO big! //voor dion; ja mijn inspiratiebron is nicolaas
-<<Transition schoolDay1Entrance>>
+<<jump schoolDay1Entrance>>
 ===
 title: schoolDay1Entrance
 ---
 <<SetBg SchoolEntranceMorningBG>>
 <i> Outside Claw Academy </i>
 ARCHIE: Pwooh, so many people already? It's so busy-!
+<<SetLeft GoldieHappy>>
 GOLDIE: Right!!!! I can't see any of our friends though...
+<<SetRight ArchieAngry>>
 ARCHIE: There? *Points*
 GOLDIE: No-? That's... Dervin? //imagine hes like. a dolphin jock
+<<SetRight ArchieHappy>>
 ARCHIE: Yeah, the one you wanted to as for <b>prom!</b>
-GOLDIE: Oh barks! I... I totally forgot about that!
+<<SetLeft GoldieSad>>
+GOLDIE: Oh barks! I... I totally forgot to do that!
 GOLDIE: (Right, <b>prom is in a few days...</b>)
+ARCHIE: You can also just go with me, you know? //goldie dismisses this
+<<SetLeft GoldieHappy>>
 GOLDIE: Those ears though... Looks so much like-
+<<SetRight ArchieAngry>>
 ARCHIE: Caspur?
+<<SetLeft GoldieSad>>
 GOLDIE: No- Capri?
 ARCHIE & GOLDIE: hmmm.....
 We look around, and around, and around and around and-
+<<SetRight ArchieHappy>>
+<<SetLeft GoldieHappy>>
 ARCHIE & GOLDIE: OUR FRIENDS!
 ARCHIE: WHOEVER IS LAST HAS TO BUY THE OTHER ONE LUNCH!!
+<<SetLeft GoldieFake>>
+<<SetRight Empty>>
 GOLDIE: huh-?
+<<SetLeft GoldieAngry>>
 GOLDIE: (CHEATER! THEY GOT A HEAD START- WHAT THE PAWS!)
+<<SetLeft GoldieSadPlus>>
 GOLDIE: argh you're running anyway...
+<<SetLeft GoldieAngryPlus>>
 GOLDIE: THE LUNCH SUCKS HERE THOUGH-!!
 <<Transition SchoolDay1Inside>>
 ===
@@ -38,51 +53,88 @@ title: SchoolDay1Inside
 ---
 //enter school building, go to locker
 <<SetBg SchoolInsideBG>>
+<<SetLeft GoldieHappy>>
+<<SetRight Empty>>
 <i> Inside Claw Academy </i>
 GOLDIE: FRIENDS!
+<<SetRight ErinNormal>>
 ERIN: Oh, Hi Goldie! Lovely to see you!
+<<SetLeft CapriNormal>>
 CAPRI: Sup.
+<<SetRight CaspurNormal>>
 CASPUR: Yo.
+<<SetLeft GoldieOkay>>
 GOLDIE: Paws, It feels like i haven't seen you all in 7 years-!
 CASPUR: Days, you mean.
 GOLDIE: ?
 CASPUR: 7 Days?
+<<SetLeft GoldieAngry>>
 GOLDIE: YOU KNOW IM JOKINGGG!!!
+<<SetRight ArchieAngryGlasses>>
 ARCHIE: pff...
+<<SetRight CaspurNormal>>
 CASPUR: *Chuckles* Yeah right...
+<<SetLeft GoldieSad>>
 GOLDIE: Paws...
 -> Really feels like 7 years though!!
-    CAPRI: So funny, dude. 
+    <<SetLeft GoldieFake>>
+    <<SetRight CapriNormal>>
+    CAPRI: So funny, dude.
+    <<SetLeft GoldieAngryPlus>>
     GOLDIE: I KNOW I AM!!
+    <<SetRight ErinNormal>>
+    ERIN: Thats enough teasing, all, don't you think?
+    <<SetLeft GoldieHappy>>
     GOLDIE: okay okay okay but... How've you all been? tell me!!
 -> How have you all been??
+<<SetLeft GoldieFake>>
+<<SetRight ErinNormal>>
 ERIN: Just busy crocheting, that's all.
+<<SetRight ArchieAngryGlasses>>
 ARCHIE: Gaming, the usual.
+<<SetRight ArchieHappyGlasses>>
+<<SetLeft GoldieHappy>>
 <i >BELL RINGS </i>
+<<SetLeft GoldieSadPlus>>
 GOLDIE: OH BARK! I STILL GOTTA GO TO MY LOCKER AND THEN MISS JEANS!!
+<<SetLeft GoldieHappy>>
 GOLDIE: ERIN, CASPUR, CAPRI, ILL HANG OUT WITH YOU GUYS LATER!!!!!
+<<SetLeft Empty>>
+<<SetRight Empty>>
+<<SetBg VoidBG>>
 ERIN, CASPUR, CAPRI: SEE YA!
 <<Transition SchoolDay1Locker>>
 ===
 title: SchoolDay1Locker
 ---
 <<SetBg SchoolLockerBG>>
-<i> Locker </i>
+<i> Goldie's Locker </i>
+<<SetLeft GoldieOkay>>
+<<SetRight ArchieHappyGlasses>>
 GOLDIE: 7911... 7912... There!
 ARCHIE: Good locker number.
+<<SetLeft GoldieHappy>>
 GOLDIE: RIGHT!!
 GOLDIE: Just need my books and put my books for tommorrow in here.
 Goldie opens her locker.
+<<SetRight ArchieAngryGlasses>>
 ARCHIE: Sucks that we don't share all classes with them today...
+<<SetLeft GoldieSad>>
 GOLDIE: RIGHT? Paws, this damn curriculum...
 ARCHIE: I Hope it ends soon-
+<<SetLeft GoldieOkay>>
 GOLDIE: Will I- hm, I only have Biology with you, right?
 ARCHIE: I Think? Yeah, cus then i go with Caspur and Capri, and you get Erin, and then we are all split up.
 GOLDIE: Right!!
+<<SetRight ArchieHappyGlasses>>
+<<SetLeft GoldieHappy>>
 *BELL RINGS*
+<<SetLeft GoldieSadPlus>>
 GOLDIE: FUVCK-
 GOLDIE: (AAAAAAAHHHHHH NO WAY IM LATE FOR MY FIRST CLASSSSSS!!!)
 //goldie sprite dissapears
+<<SetLeft Empty>>
+ARCHIE: ...
 ARCHIE: ...
 ARCHIE: YOU FORGOT TO CLOSE YOUR LOCKER, DOOFUS!!!!!
 <<Transition SchoolDay1Endday>>
@@ -90,10 +142,14 @@ ARCHIE: YOU FORGOT TO CLOSE YOUR LOCKER, DOOFUS!!!!!
 
 title: SchoolDay1Endday
 ---
-<i> End of School Day </i>
 <<SetBg SchoolClassroomBG>>
+<<SetLeft GoldieOkay>>
+<<SetRight Empty>>
+<i> End of School Day </i>
 //timeskip to end of school day, pick between 3 hangouts
+<<SetLeft GoldieHappy>>
 GOLDIE: Phew... finally done...!
+<<SetLeft GoldieOkay>>
 GOLDIE: (Ugh, I haven't had much time to hang out with any of my friends, really...)
 GOLDIE: (Not during the break either, I mean, It's the first day of school, there's not that much to do yet...)
 GOLDIE: (And I still have the rest of the day to go! so...)
@@ -110,8 +166,12 @@ GOLDIE: (I don't see anyone of my friends immediatly, who should I look for?)
 title: SchoolDay1Capri
 ---
 <<SetBg SchoolLockerBG>>
+<<SetLeft Empty>>
+<<SetRight Empty>>
 <i> Capri's locker </i>
+<<SetLeft GoldieHappy>>
 GOLDIE: CAPRIIII!!!
+<<SetRight CapriNormal>>
 CAPRI: ?
 GOLDIE: WANNA GO TO... GO TO THE MALL?
 CAPRI: Wow? Today? Right now?
@@ -129,8 +189,12 @@ GOLDIE: Let's go!
 title: SchoolDay1Caspur
 ---
 <<SetBg SchoolLockerBG>>
+<<SetLeft Empty>>
+<<SetRight Empty>>
 <i> Caspur's locker </i>
+<<SetLeft GoldieHappy>>
 GOLDIE: CASPURRRRRRRRR!!!
+<<SetRight CaspurNormal>>
 CASPUR: Ahem?
 GOLDIE: Waaannnaaa catch up?
 CASPUR: What a coincidence, todays your lucky day!
@@ -142,8 +206,12 @@ GOLDIE: Yay!!
 title: SchoolDay1Erin
 ---
 <<SetBg SchoolLockerBG>>
+<<SetLeft Empty>>
+<<SetRight Empty>>
 <i> Erin's locker </i>
+<<SetLeft GoldieHappy>>
 GOLDIE: ERIIIIIIIIINNN!!!
+<<SetRight ErinNormal>>
 ERIN: Goldie, sweetie!
 GOLDIE: YOU WANNA HANG OUT? WANNA GO TO THE CITY?
 ERIN: Right... now?
@@ -161,8 +229,14 @@ ERIN: Alrighty.
 title: SchoolDay1Archie
 ---
 <<SetBg SchoolLockerBG>>
+<<SetLeft Empty>>
+<<SetRight Empty>>
 <i> Archie's locker </i>
+<<SetLeft GoldieHappy>>
 GOLDIE: ARCHIEEEEEE!!!
+<<SetLeft GoldieOkay>>
+GOLDIE: ...
+<<SetLeft GoldieSad>>
 GOLDIE: ...no Archie here...
 -> Go to Capri's locker
     <<Transition SchoolDay1Capri>>
