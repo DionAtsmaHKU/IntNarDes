@@ -853,10 +853,16 @@ MonoBehaviour:
       sprite: {fileID: -6706979566216755096, guid: 2d40b831ddb74074d88c33a2b25215e4, type: 3}
     - name: SchoolEntranceMorningBG
       sprite: {fileID: -5406044276023187317, guid: 5a0ff7a6837cb9d48ab818202a280116, type: 3}
-    - name: SchoolEntranceNoonBG
-      sprite: {fileID: 5458816335135893897, guid: 0fab206e4411d2f4085a5540c004f134, type: 3}
+    - name: SchoolEntranceAfternoonBG
+      sprite: {fileID: -2029305841468073331, guid: 88596ac3acf12ea4680da7da005d0cf3, type: 3}
     - name: SchoolEntranceEveningBG
       sprite: {fileID: -7160780649112225331, guid: 39d8c7039b0ad704ebece01d4bc49389, type: 3}
+    - name: SchoolGroundsMorningBG
+      sprite: {fileID: -6114533790537108722, guid: 69f544f306b38f14593671621965cb34, type: 3}
+    - name: SchoolGroundsAfternoonBG
+      sprite: {fileID: 8388044733065128826, guid: a249f91e9c33e7d4d88d174d3e5d7b4a, type: 3}
+    - name: SchoolGroundsEveningBG
+      sprite: {fileID: 1814270143439907089, guid: c22942ffd0a4c17409fffcc5888004b8, type: 3}
     - name: SchoolInsideBG
       sprite: {fileID: 1352861904527676885, guid: 4cb8acb0bfa5e71448a4ad7f63da584c, type: 3}
     - name: SchoolLockerBG
