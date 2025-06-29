@@ -36,6 +36,7 @@ GOLDIE: ...7913.. yes got it!
 Goldie opens her locker 
 GOLDIE: (hmm... should I bring my books with me so I can work on homework tonight? They are pretty heavy though...)
 -> Take them with you (-1 Spoon)
+    <<set $Bones -= 1>>
 -> Stash them in your locker (No effect)
 
 GOLDIE: OH SHOOT!! 
@@ -166,7 +167,8 @@ ARCHIE: God.. Why don't you ever just stop and think. You're always screaming an
 
 GOLDIE: (Why is this happening..? I thought we were having a good time..)
 GOLDIE: (Why is this ALWAYS happening... I need to respond..)
--> Atleast I'm not hiding... I'm still me.. (-2 Spoons)
+-> Atleast I'm not hiding... I'm still me.. (-2 Spoons) <<if $Bones > 5>>
+    <<set $Bones -= 2>>
     <<SetLeft GoldieAngry>>
     GOLDIE: Why can't you just geek out with me like before?
     GOLDIE: What did I do to make you so ashamed of me??
@@ -174,6 +176,7 @@ GOLDIE: (Why is this ALWAYS happening... I need to respond..)
     <<SetLeft GoldieSad>>
     GOLDIE: I gotta go.. hope you have fun at the fair Arch..
 -> Arch you know you can always talk to me.. (-1 Spoons)
+    <<set $Bones -= 1>>
     ARCHIE: It's not that simple Goldie.. You can just be a 100% you..
     ARCHIE: You always have it together AND you can geek out without people saying mean stuff.. Everyone adores you Goldie..
     GOLDIE: That's not true..

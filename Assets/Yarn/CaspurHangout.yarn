@@ -1,5 +1,120 @@
-﻿    title: CaspurHangout
+﻿title: CaspurHangout
 tags:
 ---
-woo yea caspur
+<<SetLeft Empty>>
+<<SetRight Empty>>
+<<SetBg SchoolEntranceAfternoonBG>>
+<i> Claw Academy School grounds </i>
+<<SetRight CaspurNormal>>
+CASPUR: Well... well... well
+CASPUR: If it isn't...
+CASPUR: Goldie... Fricking... Fetch... 
+CASPUR: Does the oh-so popular Miss Fetch finally have time to hang out with little old me?
+<<SetLeft GoldieHappy>>
+GOLDIE: Of course I do silly!
+GOLDIE: I always have time for you!
+GOLDIE: I know it's been a while... But you know how happy I am to hangout!!
+GOLDIE: Besides I'm literally a door away if you need me!
+CASPUR: *snorts* Sure you are buddy...
+GOLDIE: Oh come on! Stop being dramatic Kitty-cat!
+<<SetLeft GoldieFake>>
+GOLDIE: ...
+GOLDIE: You know where I had to be Cas...
+<<SetLeft GoldieHappy>>
+GOLDIE: Anyway! I'm here now! and you're not getting rid of me ever again.
+GOLDIE: LET'S GO!
+
+<<SetLeft Empty>>
+<i> Goldie quickly skips away </i>
+CASPUR: Goldie!
+CASPUR: Wait!!
+CASPUR: *Out of breath* Ugh You know how I feel about running...
+CASPUR: How can you even skip that fast???
+CASPUR: YOU ABSOLUTE PSYCHO.
+
+<<Transition CaspurBasement>>
+===
+
+title: CaspurBasement
+position: -4,141
+---
+<<SetLeft Empty>>
+<<SetRight Empty>>
+<<SetBg CaspurHouseBG>>
+
+<i> Inside Caspur's Basement </i>
+
+<<SetRight CaspurNormal>>
+CASPUR: Ugh... I'm soooooo... soooooo... bored Goldie.
+<i> Goldie looks entranced staring at the lit up screen </i>
+CASPUR: *Chuckles* you are such a nerd man..
+<<SetLeft GoldieHappy>>
+GOLDIE: SHHHHH!
+GOLDIE: This is the best scene of the series Cas!
+GOLDIE: The scene is like super pawsome!!
+GOLDIE: And in it we finally discover *Starts getting louder from excitement* HOW SUP-
+CASPUR: -BORING...
+CASPUR: HEY! Don't look at me with those puppy eyes...
+CASPUR: GOLDIE I SWEAR-
+CASPUR: *Sighs* Fine...
+//<<SetLeft Empty>>
+CASPUR: *Grinning* I can be persuaded to watch a little...
+CASPUR: For a price of course..
+CASPUR: Be a dear by living up to that family name of yours..
+CASPUR: ...And FETCH me an iced coffee please.
+<i> Silence fills the room </i>
+<<SetLeft GoldieFake>>
+CASPUR: What?.. Cat got your tongue?
+CASPUR: Isn't this the least I deserve for being so... freaking... patient... with you?
+<<SetLeft GoldieSad>>
+GOLDIE: Cas...
+CASPUR: I gave you space when you wanted it...
+//<<SetLeft Empty>>
+CASPUR: Now I'm hanging out with you 'cause you wanted it...
+CASPUR: And I'll gladly give you space again if you NEED it...
+CASPUR: But you're not thinking about what you need Goldie...
+CASPUR: And you're not thinking about what I need..
+GOLDIE: *Quietly* This isn't fair...
+CASPUR: ...
+CASPUR: I'm not done.
+CASPUR: You're acting like everything's fine... But I know you Goldie..
+CASPUR: And I know things haven't been fine.
+CASPUR: It's okay to grieve...
+//<<SetRight Empty>>
+<<SetLeft GoldieAngry>>
+GOLDIE: Everything IS FINE.
+GOLDIE: ...
+<<SetLeft GoldieFake>>
+GOLDIE: Let's just watch the rest of the show..
+
+<<SetRight CaspurNormal>>
+CASPUR: ...
+CASPUR: You used to share everything with me Goldie... It feels like I don't even know you anymore.
+CASPUR: I'm here to talk if you want to.
+CASPUR: But I think you should go home if you're not ready to talk...
+-> Go home
+    <<SetRight Empty>>
+    <<SetLeft GoldieSad>>
+    GOLDIE: I can't talk about this Cas...
+    GOLDIE: I'm sorry.
+    GOLDIE: I'll see you at school tomorrow.
+    CASPUR: Goldie, wait!..
+    <i> Goldie ran out of the house </i>
+-> Talk it out
+    <<SetLeft GoldieSad>>
+    GOLDIE: It's just so hard Cas...
+    GOLDIE: The house feels so empty without him.
+    <<SetRight CaspurNormal>>
+    CASPUR: *Sighs* I know...
+    CASPUR: But that doesn't mean you hide everything away...
+    <<SetLeft GoldieFake>>
+    CASPUR: I'm here for you.
+    CASPUR: *Chuckles* literally a door away.
+    CASPUR: I'm sorry for pushing you Goldie, just know I'm here for anything you need.
+    CASPUR: And I mean ANYTHING...
+    CASPUR: *Smirks* Especially if it's kicking your ass in Yard Fighter!!
+    <<SetLeft GoldieHappy>>
+    GOLDIE: OH IT'S ON!
+    GOLDIE: I'm TOTALLY gonna kick your ass first!
+<<Transition SchoolDay2>>
 ===
