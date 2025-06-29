@@ -980,6 +980,8 @@ MonoBehaviour:
       sprite: {fileID: -6587660533065096704, guid: 74ba9e0e10415184788a43c3f0a3b671, type: 3}
     - name: MallFoodCourtBG
       sprite: {fileID: 2051466355819812112, guid: 96f026f447d686547bdbe53790ed711c, type: 3}
+    - name: MallArcadeBG
+      sprite: {fileID: 5711782901363254603, guid: 2c854555822da1b499283f5c55de4679, type: 3}
     - name: ParkTreeBG
       sprite: {fileID: 4159497443633648090, guid: 873cb36ee0667cd4e8837218db8d8a79, type: 3}
     - name: ParkTreeSunsetBG
