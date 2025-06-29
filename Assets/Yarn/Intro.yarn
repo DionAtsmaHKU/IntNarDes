@@ -1,19 +1,28 @@
-﻿title: Intro
+title: Intro
 tags:
 ---
-// step out house
-???: Bye mom! Bye dad! I'm out for school!
+// step out house, black screen tho
+<<SetBg VoidBG>>
+<<SetLeft Empty>>
+<<SetRight Empty>>
+???: Bye mom! I'm out for school!
 MOM: Stay safe!
 ???: Will do!
 I close the door behind me, put my sneakers on and take a good look onto the street...
-//introduction/scene buildup, goldie introduction
+<<SetBg HouseOutsideMorningBG>>
+<<SetLeft GoldieHappy>>
+//introduction/scene buildup, goldie introduction. background is now outside of house
 ...It's the first day of school after spring break!
+<<SetLeft GoldieOkay>>
 It's a beautiful day outside, the sun is shining, the birds are singing their morning songs, the flowers are blooming brightly with the sunrise...
+//set sprite Goldie in middle now
 ...and I, Goldie, am SO READY TO START UP SCHOOL AGAIN!!!
+<<SetBg HouseStreetMorningBG>>
 The spring breeze is hitting me gently as im walking to the bus stop. I see teens my age walk to the stop too, some i recognize from Miss Apples class, others from miss Jeans...
 I'm not that much of a school person, It's not like I'm a nerd for grades or anything in Claw Academy, it's just...
 ...I miss my friends, really! Caspur, Capri, Erin...
 //bump into Archie
+<<SetBg BusStopMorningBG>>
 GOLDIE: ...Archie? //whispering
 As I get to the bus stop, I see a familiar face peek through the glass walls...
 GOLDIE: ARCHIE!!!
@@ -33,15 +42,16 @@ GOLDIE: ahh,, well,,, Its good! its really really good-
 Right as i said that, i see the bus arrive through the corner of my eye.
 GOLDIE: Oh its here!
 ARCHIE: Lets go.
-<<jump IntroBus>>
+<<Transition IntroBus>>
 ===
 title: IntroBus
 ---
+<<SetBg BusBG>>
 We both enter the bus and get a seat next to eachother. as the bus departs...
 -> Continue the conversation
     GOLDIE: So how've you been, what about you? Tell me all about it!
 -> Look outside
-    I try to see my house from the distance, maybe its over there? maybe my mom or dad are waving the bus off or his car is going out of the gara-
+    I try to see my house from the distance, maybe its over there? maybe Mom is waving the bus off or her car is going out of the gara-
     ARCHIE: -So are you not gonna ask what ive done?
     GOLDIE: OHH!! Uuuuhhmmm- yeah! Paws, right! What about you, girlie? what did you do?
 ARCHIE: Well ive been at it on Lokémob Neon-
@@ -62,5 +72,5 @@ Archie chuckles, then clears their throat.
 ARCHIE: "And for this years Prom-nerd king and queen the votes go to..."
 GOLDIE: !!!
 GOLDIE: SHUT UP SHUT UP SHUT UPPPP!!! //embarrased blush sprite
-<<jump SchoolDay1>>
+<<Transition SchoolDay1>>
 ===

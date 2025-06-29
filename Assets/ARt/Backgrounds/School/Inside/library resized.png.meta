@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 41e87b98db12cad43915333f3606c206
+guid: 4cb8acb0bfa5e71448a4ad7f63da584c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5175488385439037913
-    second: condo_Day 01_0
+      213: 1352861904527676885
+    second: library resized_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: condo_Day 01_0
+      name: library resized_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9d9f041044703d740800000000000000
-      internalID: 5175488385439037913
+      spriteID: 5d5d7810cb456c210800000000000000
+      internalID: 1352861904527676885
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      condo_Day 01_0: 5175488385439037913
+      library resized_0: 1352861904527676885
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 12a078edf09e8b74b81b44bbf99ab713
+guid: cbb88b4272cbacf47a7917e13b3ef2f3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2715401836134755704
-    second: early05_0
+      213: 528194352566612352
+    second: the dark black awesome void_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: early05_0
+      name: the dark black awesome void_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 87d6149459b0fa520800000000000000
-      internalID: 2715401836134755704
+      spriteID: 081b91517f5845700800000000000000
+      internalID: 528194352566612352
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      early05_0: 2715401836134755704
+      the dark black awesome void_0: 528194352566612352
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

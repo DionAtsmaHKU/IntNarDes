@@ -205,7 +205,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3579681405068720530, guid: 7f29e5f7ffdea4a6793cefb278b61f0c, type: 3}
       propertyPath: startNode
-      value: ErinHangout
+      value: Intro
       objectReference: {fileID: 0}
     - target: {fileID: 3579681405068720530, guid: 7f29e5f7ffdea4a6793cefb278b61f0c, type: 3}
       propertyPath: yarnProject
@@ -803,12 +803,6 @@ MonoBehaviour:
     items:
     - name: TestSprite
       sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-    - name: CafeBG
-      sprite: {fileID: 3993791693428615938, guid: 70e55c96517a2a04db91b32acfaf732b, type: 3}
-    - name: CityBG
-      sprite: {fileID: 7268736970228027949, guid: 86b766ff03de07b4babc617e156a8868, type: 3}
-    - name: ShopBG
-      sprite: {fileID: -6706979566216755096, guid: 2d40b831ddb74074d88c33a2b25215e4, type: 3}
     - name: GoldieHappy
       sprite: {fileID: 4973398057775398098, guid: 1039173efe6a3ff4a8a22514b50e9851, type: 3}
     - name: GoldieSad
@@ -845,6 +839,106 @@ MonoBehaviour:
       sprite: {fileID: 1305493358323203798, guid: 1706dd967ca6c9046a989c4691e4c937, type: 3}
     - name: BigSisHappy
       sprite: {fileID: 5010454698848748732, guid: 9cb78846727976748a1cd5958a98a785, type: 3}
+    - name: ------
+      sprite: {fileID: 0}
+    - name: VoidBG
+      sprite: {fileID: 528194352566612352, guid: cbb88b4272cbacf47a7917e13b3ef2f3, type: 3}
+    - name: CafeBG
+      sprite: {fileID: 3993791693428615938, guid: 70e55c96517a2a04db91b32acfaf732b, type: 3}
+    - name: CafeOutsideBG
+      sprite: {fileID: 434406389580817624, guid: f7eea3196ba576149a2d8e0b24d32139, type: 3}
+    - name: CityBG
+      sprite: {fileID: -1094271689053520236, guid: 818aa01c52c747845bc886e2fc311f6e, type: 3}
+    - name: ShopBG
+      sprite: {fileID: -6706979566216755096, guid: 2d40b831ddb74074d88c33a2b25215e4, type: 3}
+    - name: SchoolEntranceMorningBG
+      sprite: {fileID: -5406044276023187317, guid: 5a0ff7a6837cb9d48ab818202a280116, type: 3}
+    - name: SchoolEntranceAfternoonBG
+      sprite: {fileID: -2029305841468073331, guid: 88596ac3acf12ea4680da7da005d0cf3, type: 3}
+    - name: SchoolEntranceEveningBG
+      sprite: {fileID: -7160780649112225331, guid: 39d8c7039b0ad704ebece01d4bc49389, type: 3}
+    - name: SchoolGroundsMorningBG
+      sprite: {fileID: -6114533790537108722, guid: 69f544f306b38f14593671621965cb34, type: 3}
+    - name: SchoolGroundsAfternoonBG
+      sprite: {fileID: 8388044733065128826, guid: a249f91e9c33e7d4d88d174d3e5d7b4a, type: 3}
+    - name: SchoolGroundsEveningBG
+      sprite: {fileID: 1814270143439907089, guid: c22942ffd0a4c17409fffcc5888004b8, type: 3}
+    - name: SchoolInsideBG
+      sprite: {fileID: 1352861904527676885, guid: 4cb8acb0bfa5e71448a4ad7f63da584c, type: 3}
+    - name: SchoolLockerBG
+      sprite: {fileID: 2663597312520548336, guid: b9617256b4a7ca949a8b7b50e59161ae, type: 3}
+    - name: SchoolClassroomBG
+      sprite: {fileID: 6495823959225063446, guid: dbc405800d9779147819e3c2d74169bc, type: 3}
+    - name: SchoolPromHallBG
+      sprite: {fileID: 6447841965291975352, guid: bfd40cfcfbfe4e64397bbc19c59464a3, type: 3}
+    - name: SchoolPromToiletBG
+      sprite: {fileID: 4556904132377886174, guid: 2d7bda0b25d689843967ac77b3e4cd0e, type: 3}
+    - name: BusBG
+      sprite: {fileID: -2189089464193312433, guid: 9d3128d37438928469bed1a4e2d0ea25, type: 3}
+    - name: BusStopMorningBG
+      sprite: {fileID: 7268736970228027949, guid: 86b766ff03de07b4babc617e156a8868, type: 3}
+    - name: BusStopNoonBG
+      sprite: {fileID: 1273651893737572948, guid: 64b7cd4acc74add419e8b2a42c7d9dd8, type: 3}
+    - name: BusStopEveningBG
+      sprite: {fileID: 8845726556699113650, guid: 443ac2b798a192c43b2643003c9e235d, type: 3}
+    - name: BusStopNightBG
+      sprite: {fileID: -6026491315527200598, guid: 6c5ff8e13c4bf8840aca17036a56ed8b, type: 3}
+    - name: HouseOutsideMorningBG
+      sprite: {fileID: 6628361585448458603, guid: efe2160ab979722408753d66b930ccf1, type: 3}
+    - name: HouseOutsideAfternoonBG
+      sprite: {fileID: 7152482678934630874, guid: 81fcc64678e4fc34f9b1b7a0675591e1, type: 3}
+    - name: HouseOutsideNightBG
+      sprite: {fileID: -4794822010589458634, guid: e4b8e98307352b24f9410cfab207bf83, type: 3}
+    - name: HouseStreetMorningBG
+      sprite: {fileID: -9092037625998750504, guid: 8833de022c7d2d446ae86b7721e7001a, type: 3}
+    - name: HouseStreetAfternoonBG
+      sprite: {fileID: -3988104328810084998, guid: 02d48b67f542bb54aaa425b076332d2c, type: 3}
+    - name: HouseStreetNightBG
+      sprite: {fileID: 1641029797830362618, guid: af353880270cbbf43ab0d80210aef362, type: 3}
+    - name: HouseInsideLivingRoomBG
+      sprite: {fileID: -3223832011744472948, guid: 83995c5f769fcaf4bb59d32de20d9a8d, type: 3}
+    - name: HouseInsideDinnerTableBG
+      sprite: {fileID: -5659665054546766773, guid: 31f87b3fb61fe9346aa152ac72b449be, type: 3}
+    - name: HouseInsideBathroomBG
+      sprite: {fileID: -1827352866146654524, guid: abcee7da8694cd04483bf8f83630b08f, type: 3}
+    - name: HouseInsideKitchenBG
+      sprite: {fileID: 1394413473933496945, guid: 0da1013932c031d47b2eea1d2d010e5e, type: 3}
+    - name: GoldieRoomDawnBG
+      sprite: {fileID: 3961366746659187172, guid: cb9b603f90b62fa408e2bbbb879b0d94, type: 3}
+    - name: GoldieRoomMorningBG
+      sprite: {fileID: 4360157903199989203, guid: f3e96f1c8ae90d54780c05a5f3868fcc, type: 3}
+    - name: GoldieRoomNoonBG
+      sprite: {fileID: -2425093361009279169, guid: 3293e2c2461783f49acbfba9f9134340, type: 3}
+    - name: GoldieRoomAfternoonBG
+      sprite: {fileID: -3451746194209945663, guid: 9cfb23e161563f34f941a7a66e085982, type: 3}
+    - name: GoldieRoomDuskBG
+      sprite: {fileID: 1478846512527810228, guid: 0a3cf9273594ffd4a85c61e13b9d5fbc, type: 3}
+    - name: GoldieRoomDuskLightBG
+      sprite: {fileID: -7158921930750325090, guid: 80215168f25b77f4493959483c810724, type: 3}
+    - name: GoldieRoomEveningBG
+      sprite: {fileID: 3741284288491491305, guid: 80fe15f8a85097a4cad668d216bb8990, type: 3}
+    - name: GoldieRoomEveningLightBG
+      sprite: {fileID: -7466423765388559510, guid: 393f23ffadfaa8849b3a4fbb71aad4ba, type: 3}
+    - name: GoldieRoomNightBG
+      sprite: {fileID: -3336693097264576536, guid: 8427c34daf5372a4faf2832ffcc695cb, type: 3}
+    - name: HouseOutsideAfteroonBG
+      sprite: {fileID: 7152482678934630874, guid: 81fcc64678e4fc34f9b1b7a0675591e1, type: 3}
+    - name: HouseOutsideNightBG
+      sprite: {fileID: -4794822010589458634, guid: e4b8e98307352b24f9410cfab207bf83, type: 3}
+    - name: MallOutsideBG
+      sprite: {fileID: -2451909167823314374, guid: b978120872244604e8a68fea09675a3c, type: 3}
+    - name: MallInsideBG
+      sprite: {fileID: -6587660533065096704, guid: 74ba9e0e10415184788a43c3f0a3b671, type: 3}
+    - name: MallFoodCourtBG
+      sprite: {fileID: 2051466355819812112, guid: 96f026f447d686547bdbe53790ed711c, type: 3}
+    - name: ParkTreeBG
+      sprite: {fileID: 4159497443633648090, guid: 873cb36ee0667cd4e8837218db8d8a79, type: 3}
+    - name: ParkTreeSunsetBG
+      sprite: {fileID: -1917768205994184442, guid: 657ffcfce4cc42449b7f6c5738cdac4e, type: 3}
+    - name: ParkEntranceBG
+      sprite: {fileID: -1047667349354646693, guid: 82dada63b9870984583afbbb818ff244, type: 3}
+    - name: CaspurHouseBG
+      sprite: {fileID: 5837234205219509150, guid: e969c4d638f335248944e761d2ac501f, type: 3}
 --- !u!1 &1573146774
 GameObject:
   m_ObjectHideFlags: 0

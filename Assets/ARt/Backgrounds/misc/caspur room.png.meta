@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c66c1c793278b6d47bdc5d41a8270365
+guid: e969c4d638f335248944e761d2ac501f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3198686756640517723
-    second: Auditorium_Outside_Sunrise_0
+      213: 5837234205219509150
+    second: caspur room_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Auditorium_Outside_Sunrise_0
+      name: caspur room_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5a112ba975bfb93d0800000000000000
-      internalID: -3198686756640517723
+      spriteID: e935ed82595020150800000000000000
+      internalID: 5837234205219509150
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Auditorium_Outside_Sunrise_0: -3198686756640517723
+      caspur room_0: 5837234205219509150
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
