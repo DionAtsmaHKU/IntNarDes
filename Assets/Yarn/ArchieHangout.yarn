@@ -5,7 +5,7 @@ tags:
 // It goes awry as they start having an argument with eachother.
 <<SetLeft Empty>>
 <<SetRight Empty>>
-//<<SetBg >> //Classroom
+<<SetBg SchoolClassroomBG>> //Classroom
 <i> Claw Academy Hallways </i>
 
 TEACHER: ...and don't forget to read the next chapter before next week! 
@@ -20,7 +20,7 @@ Goldie slowly gets up to pack her bag, lost in her own thoughts.
 title:ArchieLockers
 
 ---
-//<<SetBg >> //Hallway
+<<SetBg SchoolLockerBG>> //Lockers
 
 // School ends for the day, we see goldie coming out of class, going to their locker and collecting their thoughts 
 // (about yesterdays arguments)
@@ -47,7 +47,7 @@ title:ArchieHangoutOutside
 ---
 <<SetLeft Empty>>
 <<SetRight Empty>>
-//<<SetBg >> //SchoolGrounds
+<<SetBg SchoolEntranceNoonBG>> //SchoolGrounds
 
 // goldie walks out of the building and finds Archie on the steps (maybe with some cool skater bros)
 <i> On the school grounds of Claw Academy </i>
@@ -101,7 +101,7 @@ position: 5,195
 ---
 <<SetLeft Empty>>
 <<SetRight Empty>>
-//<<SetBg >> //Bus stop
+<<SetBg BusStopNoonBG>> //Bus stop
 <i> At the bus stop </i>
 
 <<SetLeft GoldieOkay>>
@@ -132,7 +132,7 @@ title: ArchieBusride
 position: 5,195
 ---
 <<SetLeft Empty>>
-//<<SetBg >> //Bus
+<<SetBg BusBG>> //Bus
 
 <<SetRight ArchieAngryGlasses>>
 ARCHIE:*He whispers* -uhm.. the uhm.. poly ship.. hey look The bus is here, let's go..
@@ -151,7 +151,7 @@ Archie glows bright red while trying to hide in their jacket, hoping to become i
 <<SetLeft GoldieSad>>
 GOLDIE: (Did I do something wrong??)...
 <<SetLeft GoldieOkay>>
-GOLDIE: *In a normal volume* hey... Archieboo... did I say something bad? (starts rambling) You know I have a habit of not noticing that kinda-
+GOLDIE: *In a normal volume* hey... Archieboo... did I say something bad? *starts rambling* You know I have a habit of not noticing that kinda-
 Archie cuts her off
 ARCHIE: stop.
 GOLDIE: What.. I..
