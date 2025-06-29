@@ -901,7 +901,7 @@ MonoBehaviour:
     - name: CafeOutsideBG
       sprite: {fileID: 434406389580817624, guid: f7eea3196ba576149a2d8e0b24d32139, type: 3}
     - name: CityBG
-      sprite: {fileID: -1094271689053520236, guid: 818aa01c52c747845bc886e2fc311f6e, type: 3}
+      sprite: {fileID: 7257082050862450899, guid: 8a08e41dc3355d144aad89f149355f61, type: 3}
     - name: ShopBG
       sprite: {fileID: -6706979566216755096, guid: 2d40b831ddb74074d88c33a2b25215e4, type: 3}
     - name: SchoolEntranceMorningBG
