@@ -1,5 +1,8 @@
 ﻿title: CapriHangout
 ---
+<<SetBg MallOutsideBG>>
+<<SetLeft GoldieOkay>>
+<<SetRight CapriNormalGlasses>>
 <i> The Streets heading to The Areca Mall </i>
 GOLDIE: (Such a bustling Street, this place is SO packed with people!)
 GOLDIE: (And now with Capri, we can just-)
@@ -7,74 +10,79 @@ CAPRI: (Rambling) It’s roughly 2:30 PM, so most kids just got out of school. N
 GOLDIE: (Paws damnit...)
 GOLDIE: Yea yea. WANNA RACE?
 CAPRI: Huh?
+<<SetLeft Empty>>
 GOLDIE: SORRYCANTHEARYOUIMALREADYOFFFFF!!!~
-
+<<SetBg MallInsideBG>>
+<<SetRight Empty>>
 <i> The Areca Mall </i>
+<<SetLeft GoldieOkay>>
 GOLDIE: FIRST PLACE!!!
+<<SetRight CapriNormalGlasses>>
 GOLDIE: pheww... Ya good, bestie?
-
 CAPRI: No… just… // Exhausted Sprite
-CAPRI: (Continues to be out of breath) // Exhausted Sprite
+CAPRI: *Continues to be out of breath* // Exhausted Sprite
 CAPRI: Gimmie... a min... // Exhausted Sprite
-
-I put my paw on his shoulder, paws he looks exhausted haha!
-
+<<SetLeft GoldieFake>>
+I put my paw on his shoulder, paws he looks exhausted!
+<<SetLeft GoldieFake>>
 GOLDIE: Haha, right! right, your shapes never been the best, eh-
-
-CAPRI SOL glances away, looks back at GOLDIE FETCH and rolls his eyes.
-
-CAPRI: -Okay -Says you. // Exhausted Sprite
-
+CAPRI: -Okay -Says you. *rolls eyes* // Exhausted Sprite
+<<SetLeft GoldieSad>>
 GOLDIE: (-Huh?)
+<<SetLeft GoldieOkay>>
 GOLDIE: What are ya tryna say?
-
 CAPRI: You, the one with the gold star in shuttle run- Man, whatever-
 CAPRI: -Let’s go. Mall time.
-
+<<SetLeft GoldieSad>>
 GOLDIE: (Was my comment too much? He sounds very pissed off...)
 GOLDIE: Capri…
-
 CAPRI: What?
-
 -> Say Nothing
+    <<SetLeft GoldieOkay>>
     GOLDIE: …Where should we go? In the mall?
 -> Apologize (-1 Spoons)
+    <<SetLeft GoldieSadPlus>>
     GOLDIE: …I didn’t mean ill intent by pointing out the difference in our shape shape, I meant condition! You know? Running? Fast? Being fast? Nyoom? running? speed-
     CAPRI: -Dude. I said let's go. No reason to continue this, come on.
     GOLDIE: Oh. Okay… um…
     GOLDIE: (change topic, change topic!!!)
+    <<SetLeft GoldieFake>>
     GOLDIE: Where should we go first? In the um… the mall yeah?
-
 CAPRI: Where do you wanna go?
-
 -> What about clothing, Searie?
     <<jump CapriHangoutSearie>>        
 -> Okay... the uhh... The Cinemas! (-1 Spoons)
     <<jump CapriHangoutCinema>>
 ===
+
 title: CapriHangoutSearie
 ---
 CAPRI: Sorry, Searie?
+<<SetLeft GoldieHappy>>
 GOLDIE: Like Searie! Searing Subject? the place me and Archie rock our gear from?
 CAPRI: uuuuuhhh… closed.
 GOLDIE: (YOURE KIDDING! The doors are shuttered closed...)
+<<SetLeft GoldieAngry>>
 GOLDIE: Damnit!
 GOLDIE: (well thats annoying…)
 GOLDIE: What about...
-
 -> CineUniverse (Cinemas) (-1 Spoons)
     <<jump CapriHangoutCinema>>
 ===
 
 title: CapriHangoutCinema
 ---
+<<SetLeft GoldieFake>>
 CAPRI: This place has a cinema?
+<<SetLeft GoldieHappy>>
 GOLDIE: Yeah! There's a CineUniverse above the food court on the third floor and lotsa people miss out on it because nobody goes to the third floor except for maaaaybe toilets? And also the arcade?-
 CAPRI: -Didn’t they file bankruptcy like… Yesterday?
+<<SetLeft GoldieSad>>
 GOLDIE: HUUUUHHH???
 GOLDIE: (let me quickly check my phone-)
 GOLDIE: What the ... Oh my bark it did.
 CAPRI: Told you.
+<<SetLeft GoldieAngry>>
 GOLDIE: Ughhhh!!! DAMNIT...!!
 <<jump CapriHangoutBust>>
 ===
@@ -83,59 +91,73 @@ title: CapriHangoutBust
 ---
 CAPRI: So that was a bust.
 CAPRI: What about the uh... The food court? Or… what about the arcade?
+<<SetLeft GoldieSad>>
 GOLDIE: Paws, I’m just... eehhh... I dunno…
+<<SetLeft GoldieSadPlus>>
 GOLDIE: (Why do I wanna leave now...? we- we haven't even done anything of note- man...)
-
-GOLDIE FETCH looks around with a frown. She is clearly starting to feel unwell.
-
 -> Food Court (-1 Spoons)
-    <<jump CapriHangoutFood>>
+    *STOMACH GRUMBLE*
+    CAPRI: Was that you?
+    <<SetLeft GoldieOkay>>
+    GOLDIE: ...Food?
+    GOLDIE: (But, the food court we just passed by was loud and busy and intense and also loud and-)
+    CAPRI: Food it is.
+    <<Transition CapriHangoutFood>>
 -> Arcade (-3 Spoons)
-    <<jump CapriHangoutArcade>>
+    <<SetLeft GoldieFake>>
+    GOLDIE: ARCADE!! // Overstimulated sprite
+    CAPRI: ‘Kay.
+    <<Transition CapriHangoutArcade>>
 ===
 
 title: CapriHangoutFood
 ---
-*STOMACH GRUMBLE*
-CAPRI: Was that you?
-GOLDIE: ...Food?
-GOLDIE: (But, the food court we just passed by was loud and busy and intense and also loud and-)
-CAPRI: Food it is.
+<<SetBg MallFoodCourtBG>>
 //scene change to food court
+<<SetLeft GoldieSad>>
 CAPRI: Paws its busy...
+<<SetLeft GoldieSadPlus>>
 GOLDIE: (-Oh no. Oh nonono. I don’t... IIII AM IN FACT GETTING AT MY LIMIT. OHHH MY BARK. YEAH NO THIS IS NOT GOING GREAT I SHOULD LEAAAVE I WANNA LEAAAAVE. LIKE RIGHT NOW.) // Overstimulated sprite
+<<SetLeft GoldieFake>>
 GOLDIE: ...ummm...
 GOLDIE: eeehhhh... erm...
+<<SetLeft GoldieSadPlus>>
 GOLDIE: (LOOK AROUND FOR AN EXIT OR SOMETHING, IIII UM.... I AM UMMMM... THINK!!! THINK!)
-CAPRI: -So?
 
+CAPRI: -So?
 -> QUICK DIVERSION (-3 Spoons)
-    <<jump CapriHangoutArcade>>
+    <<SetLeft GoldieFake>>
+    GOLDIE: ARCADE!! // Overstimulated sprite
+    CAPRI: ‘Kay.
+    <<Transition CapriHangoutArcade>>
 -> LEAVE
     <<jump CapriHangoutEnd>>
 ===
 
 title: CapriHangoutArcade
 ---
-GOLDIE: ARCADE!! // Overstimulated sprite
-CAPRI: ‘Kay.
-//trnasition to arcade
-GOLDIE: (...I DON'T LIKE THIS…?!?!!??!?!?!???) // Overstimulated sprite
+<<SetBg MallArcadeBG>>
+<<SetLeft GoldieSad>>
+GOLDIE: (...I DON'T LIKE THIS PLACE…?!?!!??!?!?!???) // Overstimulated sprite
+<<SetLeft GoldieSadPlus>>
+GOLDIE: (ITS EQUALLY BUSY AND LOUD AND WARM AND LOUD AND)
 GOLDIE: (UM UH UH U MU HU MUH UM UMMMMM  UHUMM)
+<<SetLeft GoldieFake>>
 CAPRI: Oh shit look! they got Tunes Vortex, that one arcade game i've been waiting for-
+<<SetLeft GoldieSadPlus>>
 GOLDIE: (I CAN’T… STAY…!) // Overstimulated sprite
-
 CAPRI: (rambling) -out since, uuuhh... two years ago overseas? Prob thinking of a different cabinet...
-
 ->LEAVE
     <<jump CapriHangoutEnd>>
 ===
 
 title: CapriHangoutEnd
 ---
+<<SetLeft GoldieFake>>
 GOLDIE: I THINK I JUST WANNA GO. LIKE RIGHT NOW I FORGOT I HAVE SOMEWHERE TO BE. // Overstimulated sprite
 GOLDIE: LIKE RIGHT NOW RIGHT THIS MOMENT RIGHT NOW. // Overstimulated sprite
 CAPRI: What- So abruptly? I wasn’t even done explaining sou-
+<<SetLeft Empty>>
 GOLDIE: YEAHITWASGREATBEIGNWITHYOUANDALLBUTIDONTHTINKTHEMALLISAGREATPLACEFORMEATTHISPOINTINTIMEIDRATHERHAVESTAYEDHOMEOKAYNOWBYEEE~!!!! // Overstimulated sprite
 //goldie sprite running away
 CAPRI: ...Well thats out of character.
