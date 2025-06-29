@@ -1,38 +1,81 @@
 ﻿title: SchoolDay2
-tags:
 ---
-// Getting to school
-The next day...
+<<SetBg SchoolLockerBG>>
+<<SetLeft GoldieOkay>>
+<<SetRight Empty>>
+<i> Claw Academy, the next day... </i>
 GOLDIE: (Looks like I'm at school early, I don't see anyone yet...)
-GOLDIE: (Oh! There's Archie at least!! Thank [cheesy dog pun here]!)
-GOLDIE: ARCHIE! There you are, I was worried you'd never show up!
+<<SetRight ArchieHappy>>
+GOLDIE: (Oh! There's Archie at least!!!)
+GOLDIE: ARCHIE! MY GUY!!! MY GAL!!! MY WHATEVER!!!
 ARCHIE: GOLDIEEEE!!!
+<<SetLeft GoldieSad>>
+GOLDIE: IT'S BEEN 7 YEARS!!! I THOUGHT YOU'D NEVER SHOW UP AGAINNNNN...
 ARCHIE: ...You do know you're half an hour early, right?
 GOLDIE: WOOPS! Maybe I'm just early then!
-ARCHIE: Are you alright? You seem a bit tired. How was your hangout with HangoutPerson yesterday?
+ARCHIE: Are you alright? You seem a bit tired. How was your hangout with {$HangoutPerson} yesterday?
 GOLDIE: (Do I really look that tired?)
--> It went alright, I had a good time! (- spoons)
-    a
--> To be honest, me and HangoutPerson had a bit of an argument...
-    b
+-> It went alright, I had a good time!
+    ARCHIE: Girl, you're so obviously in distress, what do you MEAN.
+    <<SetLeft GoldieHappy>>
+    GOLDIE: ???? AM I THAT OBVIOUS?? ohhhh...
+    ARCHIE: Clearly you have someone to talk to. GO. SET FORTH AND FIX YOUR FRIENDSHIP
+    GOLDIE: ARGH HOW DO YOU KNOW ME SO WELL???
+-> To be honest, me and {$HangoutPerson} had a bit of an argument...
+    ARCHIE: Oh no!!! You should probably go talk to them, patch it up, right?
+    GOLDIE: Yeahhhhhh. I really should, but what if they're still angry or-
+    ARCHIE: NONE OF THAT, GO!! SET FORTH AND FIX YOUR FRIENDSHIP
+    <<SetLeft GoldieHappy>>
+    GOLDIE: OKAY?? THANKS??
 
-GOLDIE: (I should probably talk to HangoutFriendHere after yesterday...)
-GOLDIE: ANYWAY, gotta go see you in class byeeeeee~
-ARCHIE: ? OKAY BYE SEE YOU SOON!!
-
-// based on choice yesterday:
-<< jump ErinTalk >> 
-// Tension with friend from yesterday a bit relieved
-b
-// Class starts. jump to Jae's part
+GOLDIE: (I should REALLY talk to {$HangoutPerson} after yesterday...)
+GOLDIE: ALRIGHT, GOTTA GO FIX MY FRIENDSHIP BYEEEEEEEE~
+ARCHIE: OKAY BYE GOOD LUCK !!!!!
+<<SetRight Empty>>
+<<if $HangoutPerson == "Erin">>
+    << Transition ErinTalk >> 
+<<elseif $HangoutPerson == "Caspur">>
+    << Transition CaspurTalk>>
+<<elseif $HangoutPerson == "Capri">>
+    << Transition CapriTalk>>
+<<endif>>
+ERROR ???????? HUH??????? I GUESS IT BROKE??????
+<<Transition ArchieHangout>>
 ===
 
 title: ErinTalk
 ---
-GOLDIE: Yo erin we should like. apologize and Shit
-ERIN: yeah sure
-GOLDIE: ok gg'S
+GOLDIE: (...)
+<<SetRight ErinNormal>>
+GOLDIE: (Oh, there's Erin...)
+GOLDIE: Hiii Erin! How's... What's up?
+ERIN: Oh hi Goldie!
+GOLDIE: ...
+ERIN: ...?
+<<SetLeft GoldieSad>>
+GOLDIE: AREN'T YOU SUPER ANGRY AT ME??
+ERIN: ? Goldie, we just had a tiny argument yesterday, we're fine!
+GOLDIE: BUT !!! BUT !!! I was so rude? And had no energy?? And just kinda sucked as a friend and-
+ERIN: -I'm gonna stop you right there. Miss Fetch, you are FINE. You're allowed to have an off-day, you know?
+GOLDIE: (...Am I?)
+GOLDIE: ...I guess. Sorry for making it a big deal? Hug it out?
+ERIN: Of course!! Come here.
+<i> The two embrace and head to class </i>
+<< Transition ArchieHangout >>
+===
+
+title: CaspurTalk
+---
+a
 // Spoons choice here probably
 class time
-<< jump ArchieHangout >>
+<< Transition ArchieHangout >>
+===
+
+title: CapriTalk
+---
+anyway
+// Spoons choice here probably
+class time
+<< Transition ArchieHangout >>
 ===

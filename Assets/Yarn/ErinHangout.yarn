@@ -17,7 +17,7 @@ ERIN: Anyway, what did you say you wanted to do?
 ERIN: Hmm, I want to go get coffee, but I also want to shop for some new tops at Zeeman... What do you think we should do?
 << SetLeft GoldieOkay >>
 GOLDIE: (Hmm...)
--> Let's get coffee!! (-1 bone) <<if $Bones > 123>>
+-> Let's get coffee!! (-1 bone)
     <<set $Bones -= 1>>
     << jump ErinCafeStart >>
 -> Let's go shopping!! (-2 bones)
@@ -99,7 +99,7 @@ title: ErinShoppingStart
 ---
 <<if $PartOneDone == false>>
     ERIN: Yay! Okay, so I've really been meaning to get more earthy coloured clothes, right? So I'm thinking of getting some more brown pants, maybe some olive coloured tank tops-
-    GOLDIE: -Right, let's just get there first before we go over your entire shopping list, okay?
+    GOLDIE: -Right, let's just get there first before we go over your entire shopping list, okay? LET'S GOOOOO~
     ERIN: RIGHT, sorry! Okay, let's get going!
 <<endif>>
 <<Transition ErinShopping>>
@@ -112,15 +112,15 @@ title: ErinShopping
 <i> Zeeman Clothing Shop </i>
 ERIN: WOW, there's just so much to buy... maybe this could fit you, Goldie!
 GOLDIE: (We've been at it for so long, I'm just waiting to leave at this point...)
-GOLDIE: ...OOOHH that looks nice! But I think I'm good, Erin! 
+GOLDIE: ...wait oOOO THAT LOOKS TOTALLY PAWSOME?!  
 ERIN: Come onnnnnn this would look great on you!! Admit it!
 GOLDIE: ...Mm? Yeah it would! 
-GOLDIE: (Ugh, I can't focus...)
+GOLDIE: (Ugh, Erin is finding so much AMAZING stuff but I can't focus...)
 GOLDIE: (The store is so cramped and the customers are so loud...)
 GOLDIE: (I just wanna lie down and roll over honestly...)
 ERIN: ...and that too of course. Wait, were you even listening?
 <<SetLeft GoldieFake>>
-GOLDIE: OOPS, sorry haha... I'm just a bit tired, okay?
+GOLDIE: OOPS, sorry haha... I'm just a bit tired, okay? I'm gonna be 100% - SHOPPING MODE - now!
 ERIN: ...A bit tired? is that all there is to it?
 <<if $PartOneDone == true>>
     <<jump ErinArgue>>
@@ -133,6 +133,7 @@ GOLDIE: (Come on...)
     ERIN: But-
 -> YEP! Though I could really go for some coffee right about now! (-2 bones)
     <<set $Bones -= 2>>
+GOLDIE: LAST ONE TO GET THERE IS A......... HERON? 
 <<SetLeft Empty>>
 <i> Before Erin can say anything, Goldie sprints outside </i>
 ERIN: ...Alright, I guess I'll pay for this first? WAIT FOR ME GOLDIE-
@@ -157,9 +158,10 @@ GOLDIE: THANK YOU, that's all I'm asking for here.
 ERIN: ...
 ERIN: Soooooo. Do you wanna stay a bit longer and chat?
 GOLDIE: (...)
+-> YEAH I'd love to hang out more! (-3 bones) <<if $Bones > 100>>
 -> I think I need to go home, sorry.
 ERIN: And that's okay!! You should get some rest, don't forget to drink enough water-
-GOLDIE: I knowwww I knowww. Alright, see ya later Erin!
+GOLDIE: I knowwww I knowww. Alright, see ya later Erin! Today was still AMAZING okay? SEE YA SOON!!
 ERIN: Byeeee! And take care, okay?
 <<jump SchoolDay2>>
 ===
