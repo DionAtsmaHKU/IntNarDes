@@ -163,5 +163,5 @@ GOLDIE: (...)
 ERIN: And that's okay!! You should get some rest, don't forget to drink enough water-
 GOLDIE: I knowwww I knowww. Alright, see ya later Erin! Today was still AMAZING okay? SEE YA SOON!!
 ERIN: Byeeee! And take care, okay?
-<<jump SchoolDay2>>
+<<Transition SchoolDay2>>
 ===
