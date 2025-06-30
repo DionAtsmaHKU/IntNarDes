@@ -3,15 +3,52 @@ tags:
 ---
 <<SetBg SchoolGroundsEveningBG>>
 <<SetLeft GoldieOkay>>
+<<SetMiddle Empty>>
 <<SetRight Empty>>
 <i> Outside Claw Academy </i>
 GOLDIE: (Paws... This line is so long)
 GOLDIE: (This is it. The night Everyone has been waiting for...)
 GOLDIE: *Sighs* (I should be happy to be here...)
-<i> The line is moving slowly, there are teens in front of goldie laughing their hearts out and joking around </i>
-GOLDIE: *Sighs* (I wonder how everyone's doing...)
+<i> The line is moving slowly, there are teens in front of Goldie laughing their hearts out and joking around...</i>
+GOLDIE: (I wonder how everyone's doing...)
+GOLDIE: (Erin... Caspur... Capri...)
 GOLDIE: (Will Archie be there?)
-GOLDIE: (Will they all be... there..?)
+GOLDIE: (Will they all even be here...?)
+GOLDIE: (Gah, I shouldn't think too much about this-!)
+GOLDIE: (I'm here to have a good time, a great time!!)
+<i>The line is getting close to the entrance...</i>
+GOLDIE: (I'm starting to feel the beats of the music in my chest-)
+GOLDIE: (aaaaaaaaaaa it's gonna be goooooooddd...! its gonna be GREAT!!)
+GOLDIE: (just gonna hype myself up!! i got this!!!)
+BOUNCER (MS. JEANS): Ticket, please.
+GOLDIE: H-here!
+BOUNCER (MS. JEANS): Go on your way, Goldie.
+<<SetLeft Empty>>
+GOLDIE: Thanks!
+BOUNCER (MS. JEANS): ...
+BOUNCER (MS. JEANS): Ticket, please.
+DERVIN: Ofcourse, Miss Jeans!
+BOUNCER (MS. JEANS): Dervin... Got no drinks? drugs?-
+<<Transition PromInside>>
 //goldie waits in like for a bit, is overthinking, enters
+===
+
+title: PromInside
+---
+<<SetBg SchoolPromHallBG>>
+<<SetLeft GoldieOkay>>
+<<SetMiddle Empty>>
+<<SetRight Empty>>
+<i> Prom Hall </i>
+GOLDIE: (Doggie voice, <i><b>I'm in!</i></b>)
+GOLDIE: ...
+GOLDIE: (IT'S SO... BRIGHT!)
+GOLDIE: (AND LOUD AND ANNOYING AND NOISY AND ALSO BRIGHT-)
+GOLDIE: (OH, I immediatly REGRET THIS-!)
+GOLDIE: Table, Table...!
+GOLDIE: (Is there a table anywhere?!)
+GOLDIE: (OH, THE PUNCH TABLE!)
+<i>Goldie hides under the punch table.</i>
+GOLDIE: (This is fine.)
 //has a tough time the second she enters, hides under punch table
 ===
