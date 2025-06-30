@@ -40,7 +40,7 @@ CAPRI: What?
 -> Say Nothing
     <<SetLeft GoldieOkay>>
     GOLDIE: …Where should we go? In the mall?
--> Apologize (-1 Spoons)
+-> Apologize (-1 bones)
     <<SetLeft GoldieSadPlus>>
     GOLDIE: …I didn’t mean ill intent by pointing out the difference in our shape shape, I meant condition! You know? Running? Fast? Being fast? Nyoom? running? speed-
     CAPRI: -Dude. I said let's go. No reason to continue this, come on.
@@ -51,7 +51,7 @@ CAPRI: What?
 CAPRI: Where do you wanna go?
 -> What about clothing, Searie?
     <<jump CapriHangoutSearie>>        
--> Okay... the uhh... The Cinemas! (-1 Spoons)
+-> Okay... the uhh... The Cinemas! (-1 bones)
     <<jump CapriHangoutCinema>>
 ===
 
@@ -66,7 +66,7 @@ GOLDIE: (YOURE KIDDING! The doors are shuttered closed...)
 GOLDIE: Damnit!
 GOLDIE: (well thats annoying…)
 GOLDIE: What about...
--> CineUniverse (Cinemas) (-1 Spoons)
+-> CineUniverse (Cinemas) (-1 bones)
     <<jump CapriHangoutCinema>>
 ===
 
@@ -95,7 +95,7 @@ CAPRI: What about the uh... The food court? Or… what about the arcade?
 GOLDIE: Paws, I’m just... eehhh... I dunno…
 <<SetLeft GoldieSadPlus>>
 GOLDIE: (Why do I wanna leave now...? we- we haven't even done anything of note- man...)
--> Food Court (-1 Spoons)
+-> Food Court (-1 bones)
     *STOMACH GRUMBLE*
     CAPRI: Was that you?
     <<SetLeft GoldieOkay>>
@@ -103,7 +103,7 @@ GOLDIE: (Why do I wanna leave now...? we- we haven't even done anything of note-
     GOLDIE: (But, the food court we just passed by was loud and busy and intense and also loud and-)
     CAPRI: Food it is.
     <<Transition CapriHangoutFood>>
--> Arcade (-3 Spoons)
+-> Arcade (-3 bones)
     <<SetLeft GoldieFake>>
     GOLDIE: ARCADE!! // Overstimulated sprite
     CAPRI: ‘Kay.
@@ -125,7 +125,7 @@ GOLDIE: eeehhhh... erm...
 GOLDIE: (LOOK AROUND FOR AN EXIT OR SOMETHING, IIII UM.... I AM UMMMM... THINK!!! THINK!)
 
 CAPRI: -So?
--> QUICK DIVERSION (-3 Spoons)
+-> QUICK DIVERSION (-3 bones)
     <<SetLeft GoldieFake>>
     GOLDIE: ARCADE!! // Overstimulated sprite
     CAPRI: ‘Kay.
