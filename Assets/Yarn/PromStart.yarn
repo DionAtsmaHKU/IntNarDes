@@ -59,11 +59,12 @@ GOLDIE: (Is there a table anywhere?!)
 GOLDIE: (OH, THE PUNCH TABLE!)
 <<SetMiddle Empty>>
 <i>Goldie hides under the punch table.</i>
-<<SetLeft GoldieFake>>
+<<SetLeft Empty>>
 GOLDIE: (This is fine.)
-//if
-<<jump PromHighSpoons>>
-//if
-<<jump PromLowSpoons>>
+<<if $Bones > 11>>
+    <<jump PromHighSpoons>>
+<<else>>
+    <<jump PromLowSpoons>>
+<<endif>>
 //has a tough time the second she enters, hides under punch table
 ===
