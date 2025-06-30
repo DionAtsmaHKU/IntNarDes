@@ -155,10 +155,13 @@ GOLDIE: (Not during the break either, I mean, It's the first day of school, ther
 GOLDIE: (And I still have the rest of the day to go! so...)
 GOLDIE: (I don't see anyone of my friends immediatly, who should I look for?)
 -> Go to Capri's locker
+    <<set $HangoutPerson = "Capri">>
     <<Transition SchoolDay1Capri>>
 -> Go to Caspurs's locker
+    <<set $HangoutPerson = "Caspur">>
     <<Transition SchoolDay1Caspur>>
 -> Go to Erin's locker
+    <<set $HangoutPerson = "Erin">>
     <<Transition SchoolDay1Erin>>
 -> Go to Archies's locker
     <<Transition SchoolDay1Archie>>
@@ -239,10 +242,13 @@ GOLDIE: ...
 <<SetLeft GoldieSad>>
 GOLDIE: ...no Archie here...
 -> Go to Capri's locker
+    <<set $HangoutPerson = "Capri">>
     <<Transition SchoolDay1Capri>>
 -> Go to Caspurs's locker
+    <<set $HangoutPerson = "Caspur">>
     <<Transition SchoolDay1Caspur>>
 -> Go to Erin's locker
+    <<set $HangoutPerson = "Erin">>
     <<Transition SchoolDay1Erin>>
 ===
 

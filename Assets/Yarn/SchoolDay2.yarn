@@ -21,7 +21,11 @@ GOLDIE: (Do I really look that tired?)
     GOLDIE: ???? AM I THAT OBVIOUS?? ohhhh...
     ARCHIE: Clearly you have someone to talk to. GO. SET FORTH AND FIX YOUR FRIENDSHIP
     GOLDIE: ARGH HOW DO YOU KNOW ME SO WELL???
--> To be honest, me and {$HangoutPerson} had a bit of an argument...
+-> I think I was just very overstimulated... <<if $HangoutPerson == "Capri">>
+    ARCHIE: That's rough, buddy.
+    GOLDIE: YEAH IT WAS!!!
+    ARCHIE: You should probably just take it easy, maybe talk to Capri about it?
+-> To be honest, me and {$HangoutPerson} had a bit of an argument... <<if $HangoutPerson != "Capri">>
     ARCHIE: Oh no!!! You should probably go talk to them, patch it up, right?
     GOLDIE: Yeahhhhhh. I really should, but what if they're still angry or-
     ARCHIE: NONE OF THAT, GO!! SET FORTH AND FIX YOUR FRIENDSHIP
@@ -29,7 +33,12 @@ GOLDIE: (Do I really look that tired?)
     GOLDIE: OKAY?? THANKS??
 
 GOLDIE: (I should REALLY talk to {$HangoutPerson} after yesterday...)
-GOLDIE: ALRIGHT, GOTTA GO FIX MY FRIENDSHIP BYEEEEEEEE~
+<<if $HangoutPerson == "Capri">>
+    GOLDIE: Alright, I'll go do that now BYEEEEE
+<<else>>
+    GOLDIE: ALRIGHT, GOTTA GO FIX MY FRIENDSHIP BYEEEEEEEE~
+<<endif>>
+
 ARCHIE: OKAY BYE GOOD LUCK !!!!!
 <<SetRight Empty>>
 <<if $HangoutPerson == "Erin">>
