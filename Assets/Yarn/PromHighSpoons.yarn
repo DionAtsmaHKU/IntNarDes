@@ -149,11 +149,16 @@ ARCHIE: GET TO IT OR LEAVE.
 <<SetMiddle ArchieAngryGlasses>>
 <<SetRight Empty>>
 GOLDIE: Wait, let me start again!
+<<SetLeft Empty>>
+<<SetMiddle GoldieSadPlus>>
+<<SetRight Empty>>
 GOLDIE: OKAY!
 GOLDIE: so!
 GOLDIE: I struggle a lot with <b>bones</b>!
 GOLDIE: You've heard of masking and all that? I've been doing that SO much and pretending <i>EVERY</i>thing's fine.
 <<SetLeft GoldieSad>>
+<<SetMiddle Empty>>
+<<SetRight ArchieAngryGlasses>>
 GOLDIE: But it isn't!
 GOLDIE: Things aren't fine with me, Archieboo...
 GOLDIE: And I've been lying to everyone, even to you!
@@ -170,16 +175,24 @@ ARCHIE: Goldie...
 ARCHIE: let's try again.
 <<SetLeft GoldieHappy>>
 GOLDIE: *Wags tail* YIPPIE!!
-<i> Goldie looks up and locks eyes with Archie </i>
+<i> Goldie looks up and locks eyes with Archie...</i>
 -> So where do we start? I hope its all good now, here to make ammends (whatever that word means) and I just... Yeah! Want to hug it out perhaps? A good hug always ammends things!
     <i> Goldie and Archie stay in a long embrace, feeling the weight on their shoulders starting to lift.</i>
     GOLDIE: I'm glad we made up Archieboo!
     ARCHIE: Me too Goldieboo, I'm glad too.
 -> Make out
+    <<SetLeft Empty>>
+    <<SetMiddle Empty>>
+    <<SetRight Empty>>
+    <<SetBg VoidBG>>
     <i> Goldie approaches Archie- They get it- and smooch...</i>
     <i> And they smooch... </i>
     <i> A lot... </i>
     <i> They realise that the tension they've been feeling about eachother was more than just simply worrying about a friend.</i>
+<<SetLeft Empty>>
+<<SetMiddle Empty>>
+<<SetRight Empty>>
+<<SetBg VoidBG>>
 <i>Goldie and Archie rejoin the party and meet up with their friends.</i>
 <i>Everyone is together again! The night turned to be one of an unforgettable memory for everyone...</i>
 <i>FIN</i>
