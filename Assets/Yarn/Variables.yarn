@@ -4,4 +4,5 @@
 <<declare $Bones = 12>>
 <<declare $HangoutPerson = "ERROR">>
 <<declare $StartTheCount = false>>
+<<declare $TalkItOut = false>>
 ===

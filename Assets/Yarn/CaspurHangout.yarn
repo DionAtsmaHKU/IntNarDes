@@ -101,6 +101,7 @@ CASPUR: But I think you should go home if you're not ready to talk...
     CASPUR: Goldie, wait!..
     <i> Goldie ran out of the house </i>
 -> Talk it out
+    <<set $TalkItOut = true>>
     <<SetLeft GoldieSad>>
     GOLDIE: It's just so hard Cas...
     GOLDIE: The house feels so empty without him.
