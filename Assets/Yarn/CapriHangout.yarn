@@ -147,6 +147,8 @@ CAPRI: Oh shit look! they got Tunes Vortex, that one arcade game i've been waiti
 <<SetLeft GoldieSadPlus>>
 GOLDIE: (I CAN’T… STAY…!) // Overstimulated sprite
 CAPRI: (rambling) -out since, uuuhh... two years ago overseas? Prob thinking of a different cabinet...
+-> ANOTHER DIVERSION (-4 bones) <<if $Bones > 100>>
+    <<jump CapriHangoutEnd>>
 ->LEAVE
     <<jump CapriHangoutEnd>>
 ===
