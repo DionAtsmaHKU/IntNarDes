@@ -11,12 +11,22 @@ public class BonesCount : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        GetBoneCount();
-        text.text = "Bones: " + bones; 
+        if (GetBoneBool())
+        {
+            GetBoneCount();
+            text.text = "Bones: " + bones;
+        }
     }
 
     void GetBoneCount()
     {
         runner.VariableStorage.TryGetValue<float>("$Bones", out bones);
+    }
+
+    bool GetBoneBool()
+    {
+        bool areWeCountingYet = false;
+        runner.VariableStorage.TryGetValue<bool>("$StartTheCount", out areWeCountingYet);
+        return areWeCountingYet;
     }
 }

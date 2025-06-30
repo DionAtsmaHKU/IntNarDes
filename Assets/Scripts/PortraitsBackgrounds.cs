@@ -8,6 +8,7 @@ public class PortraitsBackgrounds : MonoBehaviour
     [SerializeField] DialogueRunner runner;
     [SerializeField] SpriteRenderer leftPortrait;
     [SerializeField] SpriteRenderer rightPortrait;
+    [SerializeField] SpriteRenderer middlePortrait;
     [SerializeField] SpriteRenderer bg;
     [SerializeField] CustomSpriteDictionary sprites;
     private Dictionary<string, Sprite> spritesDict;
@@ -17,6 +18,7 @@ public class PortraitsBackgrounds : MonoBehaviour
         spritesDict = sprites.ToDictionary();
         runner.AddCommandHandler<string>("SetLeft", SetLeftPortrait);
         runner.AddCommandHandler<string>("SetRight", SetRightPortrait);
+        runner.AddCommandHandler<string>("SetMiddle", SetMiddlePortrait);
         runner.AddCommandHandler<string>("SetBg", SetBackground);
     }
 
@@ -40,6 +42,17 @@ public class PortraitsBackgrounds : MonoBehaviour
         }
 
         rightPortrait.sprite = spritesDict[s];
+    }
+
+    private void SetMiddlePortrait(string s)
+    {
+        if (s == "Empty")
+        {
+            middlePortrait.sprite = null;
+            return;
+        }
+
+        middlePortrait.sprite = spritesDict[s];
     }
 
     private void SetBackground(string s)

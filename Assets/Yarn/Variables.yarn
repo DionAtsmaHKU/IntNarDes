@@ -3,5 +3,5 @@
 // This is where we declare our variables :3
 <<declare $Bones = 12>>
 <<declare $HangoutPerson = "ERROR">>
-<<jump Intro>>
+<<declare $StartTheCount = false>>
 ===
