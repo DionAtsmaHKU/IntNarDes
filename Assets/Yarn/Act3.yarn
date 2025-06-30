@@ -32,18 +32,16 @@ AURIE: Alright sib, why don't you tell big sis what happened? I'm here for you, 
 GOLDIE: *sobs* Okay... thank you sis...
 GOLDIE: So... I guess it started yesterday? ...
 <<Transition Act3Comfort>>
-
-// Goldie learns that they've been over-exerting themselves, and that their irratibility and exhaustion
-// comes mainly from doing Too Much and spending Too Many Bones (as big sibling will say)
-
 ===
 
 title: Act3Comfort
 ---
+<<SetLeft GoldieSad>>
 GOLDIE: ...and! and! I've just been feeling so tired and just... Not myself?
 AURIE: Hmmm...
 <i> Aurie seems deep in thought... </i>
 AURIE: From what you've told me, it seems like you really care about your friends-
+<<SetLeft GoldieFake>>
 GOLDIE: OF COURSE!! THEY DESERVE THE WORLD AND-
 AURIE: -Right. And you want to hang out with them allll the time, right?
 GOLDIE: Well yeah? They're awesome! What does this have to do with anything?
@@ -53,9 +51,11 @@ GOLDIE: ??? HOW??? I've only been spending a few each day, there is NO WAY I've 
 <i> Suddenly, Goldie feels a profound tiredness in their body </i>
 <<set $StartTheCount = true>>
 <i> They start to realise, that throughout the past days, they spent- </i>
+<<SetLeft GoldieAngry>>
 GOLDIE: -20 BONES?????? HOW?????
 AURIE: -Like I said, you've been exhausted! No wonder you're having trouble staying okay.
 GOLDIE: ...But HOW? I'm not overworking myself like crazy!! I'm just...
+<<SetLeft GoldieSad>>
 GOLDIE: ...
 GOLDIE: I'm just trying to be a good friend!
 AURIE: ...And does "being a good friend" involve smiling all the time?
@@ -65,72 +65,164 @@ GOLDIE: WELL-
 AURIE: And NEVER saying "No" to a hangout with friends?
 GOLDIE: ...
 GOLDIE: ...maybe?
-
+AURIE: Goldie... you gotta take some time to rest, you know? Some time for yourself!
+GOLDIE: Maybe... But I don't want to just!! Cancel hangouts with my friends! Or be sad all day! Or be too tired to talk!
+AURIE: And I get that! But if you keep pushing yourself like this, you'll just feel worse!
+AURIE: And from what you told me, you've been having a rough time, especially with your friends.
+GOLDIE: Yeah... I guess...
+AURIE: Why don't you take a day off tomorrow? I know you want to go to Prom in two days, but if you keep going like this you'll crash even harder!
+<<SetLeft GoldieOkay>>
+GOLDIE: You're right... I will!
+GOLDIE: ...but then... what do I do with Archie? We've never had such a bad fight before...
+AURIE: Well, you can talk it out at Prom, right? No need to worry about that for now. Just focus on yourself-
+GOLDIE: OKAY but should I apologize?? Should they apologize first?? I know I was pretty embarrasing but they were also mean and-
+AURIE: -You guys should just talk it out. You'll figure it out, I'm sure! Now, why don't you go to bed and get some good rest, okay?
+GOLDIE: You're right, I will! Thanks sis, for everything.
+AURIE: Of course!! I love you, good night!
+GOLDIE: *snoring*
+AURIE: I guess they needed that!
+<<Transition Act3BossBattle>>
 ===
 
 title: Act3BossBattle
 ---
 <<set $Bones = 12>>
 // DAY 3 - BOSSFIGHT
-// SetBg GoldieRoomMorning
-// SetMiddle GoldieOkay
+<<SetBg GoldieRoomMorningBG>>
+<<SetLeft Empty>>
+<<SetRight Empty>>
+<<SetMiddle GoldieOkay>>
 <i> Goldie's room, in front of her mirror... </i>
 GOLDIE: (...)
+<<SetMiddle GoldieHappy>>
 GOLDIE: Okay Goldie. Today, we're gonna CHANGE
 GOLDIE: We're gonna be HEALTHY and TAKE CARE OF OURSELVES
 GOLDIE: IS THAT CLEAR?!
 <i> The dog in the mirror doesn't respond but looks determined... </i>
 GOLDIE: THAT'S WHAT I THOUGHT!! WE CAN DO THIS!
+<<SetMiddle GoldieFake>>
 GOLDIE: ...Probably!! 
+<<SetMiddle GoldieHappy>>
 GOLDIE: (After that breakdown yesterday, I need to use this day at home to recover)
 GOLDIE: (Remember what Aurie told you: )
 GOLDIE: (Dig up your bones and don't spend them all at once!)
+GOLDIE: (Everything that I will do today will cost bones, I just need to find things to do that only cost a few!)
 GOLDIE: Okay Fetch, it's time to LOCK IN and take care of yourself.
+<<SetMiddle GoldieOkay>>
 GOLDIE: What should I do with my morning?
 <<jump Act3BossMorning>>
 ===
 
 title: Act3BossMorning
 ---
--> GOOD OPTION (-? bones) // -2
-
--> MEDIUM OPTION (-? bones) // -4
-
--> BAD OPTION (-? bones) // -6
+GOLDIE: (I should...)
+-> Do some light exercise? (-? bones)
+    <<set $Bones -= 4>>
+    <<SetMiddle GoldieOkay>>
+    GOLDIE: RIGHT! Exercise is always one of those self-care things!
+    GOLDIE: Let's just train for a bit! GO GO GOLDIE !!!
+    <i> Goldie exercises for the rest of the morning... </i>
+-> Watch my comfort show? (-? bones) 
+    <<set $Bones -= 2>>
+    <<SetMiddle GoldieHappy>>
+    GOLDIE: OF COURSE! I'll just watch some Season 1 episodes of Treat Basket!!!
+    GOLDIE: I'm sure this will cheer me up at least!!
+    <i> Goldie enjoys her time watching her silly show and feels a bit better... </i>
+-> Rot in bed for a few hours? (-? bones)
+    <<set $Bones -= 6>>
+    <<SetMiddle GoldieFake>>
+    GOLDIE: OKAY HEAR ME OUT. What if I just take some more "rest"!
+    GOLDIE: Staying in bed will surely make me feel more rested and would never kill my motivation for the day!
+    <i> Goldie rotted in bed, which helped a litte, but also killed her motivation for the day... </i>
+<<Transition Act3BossAfternoon>>
 ===
 
 title: Act3BossAfternoon
 ---
-// SetBg GoldieRoomAfternoon
-// SetMiddle GoldieOkay
--> GOOD OPTION 
-
--> MEDIUM OPTION
-
--> BAD OPTION
+<<SetBg GoldieRoomAfternoonBG>>
+GOLDIE: Okay, surely I'm getting the hang of this self-care thing now!
+GOLDIE: Hmmm... what can I do next...
+GOLDIE: (I should...)
+-> Take a short walk outside to clear my head? (-? bones)
+    <<set $Bones -= 2>>
+    <<SetMiddle GoldieHappy>>
+    GOLDIE: YES, the famous Mental Health Walk(tm)! 
+    GOLDIE: I've heard many legends about the magical healing powers of walking twenty minutes...
+    GOLDIE: Welp, time to get going!
+    <i> Goldie took a short walk, and felt a lot better! </i>
+-> Call my friends for support? (-? bones)
+    <<SetMiddle GoldieOkay>>
+    <<set $Bones -= 4>>
+    GOLDIE: This sounds like a smart plan!
+    GOLDIE: (The gang should be working on a project, so they're all in a Dogcord voice chat...)
+    GOLDIE: (Oh, Archie isn't... Maybe that's for the better?)
+    <i> Goldie joins the call... </i>
+    GOLDIE: HI GUYS!!
+    ALL: GOLDIE!!!
+    ERIN: Are you feeling okay?
+    CAPRI: Yo. *A funny sound plays from the Dogcord Soundboard*
+    CASPUR: We missed you!
+    <i> Goldie and the gang talk for a while... This takes a bit of energy, but also helps Goldie feel a bit better... </i>
+-> Watch the news? (-? bones)
+    <<SetMiddle GoldieFake>>
+    <<set $Bones -= 6>>
+    GOLDIE: TELEVISION! Man's best friend, I'm sure the news today will be PURELY POSITIVE!
+    <i> It really won't be. </i>
+    GOLDIE: SHUT UP IM GONNA WATCH THE NEWS!!! Okay let's see...
+    GOLDIE: ...
+    GOLDIE: WOW okay I guess bugs don't have rights anymore???
+    GOLDIE: THE MAYOR IS DEAD???
+    GOLDIE: ... THE MOON EXPLODED?? WHAT??? WHAT???
+    <i> Watching the news did not help with Goldie's already shaky mental health... </i>
+<<Transition Act3BossEvening>>
 ===
 
 title: Act3BossEvening
 ---
-// SetBg GoldieRoomNight
-// SetMiddle GoldieOkay
--> GOOD OPTION 
-
--> MEDIUM OPTION
-
--> BAD OPTION
+<<SetBg GoldieRoomDuskBG>>
+GOLDIE: (Wow, it's getting late already!)
+GOLDIE: (I'm feeling tired... What am I gonna do to finish this day?)
+GOLDIE: (I should...)
+-> Scroll through social media? (-? bones)
+    <<set $Bones -= 6>>
+    <<SetMiddle GoldieFake>>
+    GOLDIE: ...YEP. THE BEST THING YOU CAN DO FOR MENTAL HEALTH!
+    <i> Surely I do not need to explain why this didn't help Goldie... </i>
+-> Listen to calm music? (-? bones)
+    <<set $Bones -= 4>>
+    <<SetMiddle GoldieOkay>>
+    GOLDIE: Some calming music before bed might help?
+    GOLDIE: And I'm gonna TRY to not sing every lyric at the top of my lungs...
+    <i> Goldie calmed down a bit, but the music also kept her feeling awake and a bit restless... </i>
+-> Read a book? (-? bones)
+    <<set $Bones -= 2>>
+    <<SetMiddle GoldieOkay>>
+    GOLDIE: OF COURSE! Late night reading always calms me down a bit!
+    GOLDIE: Let's just relax, clear my head, and read...
+    <i> Despite sometimes skipping over entire pages out of excitement, Goldie calmed down a lot! </i>
+<<Transition Act3End>>
 ===
 
 title: Act3End
 ---
-// SetBg GoldieRoomNight
-// SetMiddle GoldieOkay
-GOLDIE: yo i feel decent or not now
-GOLDIE: promtime
-<<set $Bones += 12>>
+<<SetBg GoldieRoomNightBG>>
+GOLDIE: (That day felt like it flew by!)
+<<if $Bones > 3 >>
+    <<SetMiddle GoldieOkay>>
+    GOLDIE: And... I actually feel GREAT?
+    GOLDIE: I could get used to this whole "self-care" thing!
+    GOLDIE: I'm sleepy but not... exhausted?
+<<elseif $Bones > -1 >>
+    <<SetMiddle GoldieOkay>>
+    GOLDIE: And... I actually feel fine?
+    GOLDIE: I should try to take care of myself like this more often...
+<<else>>
+    <<SetMiddle GoldieSad>>
+    GOLDIE: Still... I feel like I did too much!
+    GOLDIE: I'm so tired... Maybe I used up too many bones today?
+    GOLDIE: Oh... I hope I'll feel okay enough in the morning for Prom...
+<<endif>>
+GOLDIE: I still don't really know how I'm gonna patch things up with Archie but...
+GOLDIE: For now it's just bed time!
+<<Transition PromStart>>
 ===
-
-// spends a day alone, focusses on getting more bones so that they're ready for prom
-// maybe call friends?
-//Boss battle time (literally just living a full day as a neurodivergent person)
-// Goldie goes to sleep, tomorrow big prom day that they're now prepped for
