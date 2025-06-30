@@ -1,17 +1,136 @@
-﻿title: Act3Start
+﻿title: Act3
 tags:
 ---
+<<set $Bones = -20>>
 // DAY 2
-// Goldie gets home, breakdown time
-Aaaa
-// Goldie's big sister Lyra walks in, comforts them
-Aaaa
+<<SetBg GoldieRoomDuskBG>>
+<<SetLeft Empty>>
+<<SetRight Empty>>
+<<SetMiddle GoldieSadPlus>>
+<i> Goldie bursts into their room, holding back sobs </i>
+GOLDIE: *sobs*
+GOLDIE: (That. SUCKED.)
+GOLDIE: *sobs* what do you MEAN I'M EMBARRASSING???
+GOLDIE: I just- I just wanted to... I-
+<i> Suddenly, someone knocks on Goldie's door. </i>
+GOLDIE: !
+???: Goldie? Are you alright in there?
+<<SetMiddle Empty>>
+<<SetLeft GoldieFake>>
+GOLDIE: *clearly sobbing* IM ALRIGHT.
+???: Goldie...
+GOLDIE: ...
+<i> The door opens, and a figure similar to Goldie walks in... </i>
+<<SetRight BigSisNormal>>
+???: Sib, you've clearly had a rough day. I just- I just wanted to check in you if that's okay?
+<<SetLeft GoldieSad>>
+GOLDIE: *sobs* Aurie... Please don't look at me, I'm a MESS...
+AURIE: Goldie! No one talks to my little sister like that! Not even you!
+GOLDIE: I'm sorry I'm just- upset? Angry? Embarrased?
+AURIE: Alright sib, why don't you tell big sis what happened? I'm here for you, okay?
+<<SetLeft GoldieSadPlus>>
+GOLDIE: *sobs* Okay... thank you sis...
+GOLDIE: So... I guess it started yesterday? ...
+<<Transition Act3Comfort>>
+
 // Goldie learns that they've been over-exerting themselves, and that their irratibility and exhaustion
 // comes mainly from doing Too Much and spending Too Many Bones (as big sibling will say)
 
-// DAY 3 - BOSSFIGHT
-// Goldie spends a day alone, focusses on getting more bones so that they're ready for prom
-// maybe call friends?
-Boss battle time (literally just living a full day as a neurodivergent person)
-// Goldie goes to sleep, tomorrow big prom day that they're now prepped for
 ===
+
+title: Act3Comfort
+---
+GOLDIE: ...and! and! I've just been feeling so tired and just... Not myself?
+AURIE: Hmmm...
+<i> Aurie seems deep in thought... </i>
+AURIE: From what you've told me, it seems like you really care about your friends-
+GOLDIE: OF COURSE!! THEY DESERVE THE WORLD AND-
+AURIE: -Right. And you want to hang out with them allll the time, right?
+GOLDIE: Well yeah? They're awesome! What does this have to do with anything?
+AURIE: Sounds to me like you've been spending too many bones for a while.
+AURIE: You know you only have limited energy, right? You can't always please everyone.
+GOLDIE: ??? HOW??? I've only been spending a few each day, there is NO WAY I've been spending too-
+<i> Suddenly, Goldie feels a profound tiredness in their body </i>
+<<set $StartTheCount = true>>
+<i> They start to realise, that throughout the past days, they spent- </i>
+GOLDIE: -20 BONES?????? HOW?????
+AURIE: -Like I said, you've been exhausted! No wonder you're having trouble staying okay.
+GOLDIE: ...But HOW? I'm not overworking myself like crazy!! I'm just...
+GOLDIE: ...
+GOLDIE: I'm just trying to be a good friend!
+AURIE: ...And does "being a good friend" involve smiling all the time?
+GOLDIE: Well-
+AURIE: And being full of energy all the time?
+GOLDIE: WELL-
+AURIE: And NEVER saying "No" to a hangout with friends?
+GOLDIE: ...
+GOLDIE: ...maybe?
+
+===
+
+title: Act3BossBattle
+---
+<<set $Bones = 12>>
+// DAY 3 - BOSSFIGHT
+// SetBg GoldieRoomMorning
+// SetMiddle GoldieOkay
+<i> Goldie's room, in front of her mirror... </i>
+GOLDIE: (...)
+GOLDIE: Okay Goldie. Today, we're gonna CHANGE
+GOLDIE: We're gonna be HEALTHY and TAKE CARE OF OURSELVES
+GOLDIE: IS THAT CLEAR?!
+<i> The dog in the mirror doesn't respond but looks determined... </i>
+GOLDIE: THAT'S WHAT I THOUGHT!! WE CAN DO THIS!
+GOLDIE: ...Probably!! 
+GOLDIE: (After that breakdown yesterday, I need to use this day at home to recover)
+GOLDIE: (Remember what Aurie told you: )
+GOLDIE: (Dig up your bones and don't spend them all at once!)
+GOLDIE: Okay Fetch, it's time to LOCK IN and take care of yourself.
+GOLDIE: What should I do with my morning?
+<<jump Act3BossMorning>>
+===
+
+title: Act3BossMorning
+---
+-> GOOD OPTION (-? bones) // -2
+
+-> MEDIUM OPTION (-? bones) // -4
+
+-> BAD OPTION (-? bones) // -6
+===
+
+title: Act3BossAfternoon
+---
+// SetBg GoldieRoomAfternoon
+// SetMiddle GoldieOkay
+-> GOOD OPTION 
+
+-> MEDIUM OPTION
+
+-> BAD OPTION
+===
+
+title: Act3BossEvening
+---
+// SetBg GoldieRoomNight
+// SetMiddle GoldieOkay
+-> GOOD OPTION 
+
+-> MEDIUM OPTION
+
+-> BAD OPTION
+===
+
+title: Act3End
+---
+// SetBg GoldieRoomNight
+// SetMiddle GoldieOkay
+GOLDIE: yo i feel decent or not now
+GOLDIE: promtime
+<<set $Bones += 12>>
+===
+
+// spends a day alone, focusses on getting more bones so that they're ready for prom
+// maybe call friends?
+//Boss battle time (literally just living a full day as a neurodivergent person)
+// Goldie goes to sleep, tomorrow big prom day that they're now prepped for
