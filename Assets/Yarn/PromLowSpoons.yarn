@@ -2,15 +2,147 @@
 tags:
 ---
 <<SetLeft Empty>>
+<<SetMiddle Empty>>
 <<SetRight Empty>>
 <<SetBg SchoolPromHallBG>>
-//<i> Claw Academy Gymnasium</i>
-<i> Under the punch bowl table</i>
+<i> Under the punch bowl table </i>
+<<SetBg VoidBG>>
+<<SetLeft GoldieSadPlus>>
+GOLDIE: *Mumbling* Safe space... Safe space...
+<i> Goldie looks under the table cloth and sees glimpses of the party lights and the shuffling of feet </i>
+GOLDIE: *Whispering* This was a bad choice... I don't wanna be here anymore
+//GOLDIE: *Sniffles*
+<i> After a while Goldie hears a pair of footsteps getting closer, the glimpses of light dissapear </i>
+???: *Sighs*...
+???: Goldie... are you under there?
+<i> Goldie makes the smallest of sounds in confirmation </i>
+???: ...
+???: Fuck... Goldie what are you doing under there?
+<i> A pair of hands lift the table cloth just enough to see who it is, They crouch down to Goldie's level </i>
+<<SetRight ArchieAngryGlasses>>
+ARCHIE: Come out of there, you weirdo..
+GOLDIE: ...
+<i> Archie let's out a big breath </i>
+ARCHIE: Goldie I know things are a lot right now.
+ARCHIE: But you're not alone.
+ARCHIE: Everyone is waiting for you.
+<<SetLeft GoldieFake>>
+ARCHIE: Caspur, Erin, Capri... They're all waiting for you.
+<<SetRight ArchieHappyGlasses>>
+ARCHIE: So come on out! ...Girl!
+<i> Goldie climbs out from under the table, her tail wagging softly </i>
+ARCHIE: Let's go meet everyone dude!
+<<SetLeft Empty>>
+<<SetRight Empty>>
+<i> The pair walks to the center of the room where we find Caspur, Capri and Erin </i>
+<<SetLeft GoldieOkay>>
+GOLDIE: (They look worried... Are they worried about... Me...?)
+<<SetRight ErinNormal>>
+ERIN: Heeeeeyyyyy... Goldie... GoGo... G-Dog..
+ERIN: How are we doing today?
+ERIN: We didn't see you at school yesterday... 
+GOLDIE: hi...
+GOLDIE: I'm fine...
+<<SetRight ArchieAngryGlasses>>
+ARCHIE: Goldie...
+<<SetLeft GoldieFake>>
+GOLDIE: I'm fine.
+ARCHIE: Whatever... I'll give you some space...
+<<SetRight Empty>>
+<<SetLeft GoldieOkay>>
+GOLDIE: Archie wait!
+<i> Archie turns to leave, Goldie tries to go after them but gets stopped by Caspur </i>
+<<SetLeft ErinNormal>>
+<<SetMiddle CapriNormal>>
+<<SetRight CaspurNormal>>
+CASPUR: Goldie no.
+CASPUR: Let's talk.
 
-
-//low spoons: gets poked by someone from friend group to get up from under the table, is with friend group and gets help, archie tries to help but is pissed off still from yesterday
-
+<<Transition LowSpoonsTalk>>
+//low spoons: gets poked by someone from friend group to get up from under the table, is with friend group and gets help, 
+//archie tries to help but is pissed off still from yesterday
 //archie goes away frustrated, goldie follows after
+===
+title: LowSpoonsTalk
+---
+<<SetLeft Empty>>
+<<SetMiddle Empty>>
+<<SetRight Empty>>
+<<SetBg VoidBG>>
+<i> The group had a long meaningful talk about everything that's been happening with Goldie </i>
+<i> Goldie talked about bones and how she is learning to manage them </i>
+ERIN: Wait that's so helpful! I should use that too!
+<<Transition LowSpoonsAfterTalk>>
+===
+
+title: LowSpoonsAfterTalk
+---
+<<SetLeft GoldieHappy>>
+<<SetMiddle Empty>>
+<<SetRight ErinNormal>>
+<<SetBg SchoolPromHallBG>>
+ERIN: Feeling better?
+GOLDIE: Yes! Definitely!
+<<SetLeft GoldieOkay>>
+GOLDIE: I'm sorry I made you all worried about me...
+<<SetMiddle CapriNormal>>
+CAPRI: It's okay Goldie, you're here now. That's all that matters.
+ERIN: I think it's time you talk to Archie now Goldie.
+<<SetLeft GoldieSad>>
+GOLDIE: Do you think they're like super duper mad...?
+<<SetRight CaspurNormal>>
+CASPUR: We don't know.
+CASPUR: We always see Archie coming to your rescue Goldie...
+CASPUR: Maybe it's time you come to theirs.
+GOLDIE: Okay... Wish me luck!
+<<SetLeft ErinNormal>>
+<i> We see the trio holding up their thumbs in support </i>
+CASPUR, CAPRI, ERIN: Good luck!
+<<Transition LowSpoonsArchieTalk>>
+===
+title: LowSpoonsArchieTalk
+---
+<<SetLeft GoldieOkay>>
+<<SetMiddle Empty>>
+<<SetRight Empty>>
+<<SetBg SchoolPromHallBG>>
+GOLDIE: ARCHIE!
+<<SetRight ArchieAngryGlasses>>
+ARCHIE: Leave me alone Goldie...
+GOLDIE: ARCHIE I'M SORRY.
+GOLDIE: I KNOW I'M A LOT ARCHIE.
+GOLDIE: (Shit... volume...)I'm a lot...
+GOLDIE: I just...
+GOLDIE: Wait lemme start again!
+GOLDIE: So I struggle a lot with bones... 
+GOLDIE: I've been masking so much and pretending everything's fine.
+<<SetLeft GoldieSad>>
+GOLDIE: But it isn't...
+GOLDIE: Things aren't fine Arch.
+GOLDIE: And I've been lying to everyone, even you.
+GOLDIE: I thought... if I just pretend to be like how I used to be, then everything would stay the same.
+GOLDIE: But it didn't... 'Cause I changed...
+<<SetLeft GoldieFake>>
+GOLDIE: And YES! I am overexcited and loud and shameless AND TOTALLY YURI OBSESSED but not always... Not a 100% of the time.
+GOLDIE: I'm sorry I embarrassed you Archie.
+GOLDIE: I want us to both be a 100% ourselves when we're together.
+GOLDIE: And I want you to get to know all of me!
+GOLDIE: How 'bout it Arch? You wanna try again?
+ARCHIE: Sure Goldie... 
+<<SetRight ArchieHappyGlasses>>
+ARCHIE: let's try again.
+<<SetLeft GoldieHappy>>
+GOLDIE: *Wags tail* YAY!!
+<i> Goldie looks up and locks eyes with Archie </i>
+-> Hug
+    <i> Goldie and Archie stay in a long embrace, feeling the weight on their shoulders start to lift </i>
+    GOLDIE: I'm glad we made up Arch.
+    ARCHIE: I am too Goldie, I'm glad too.
+-> Make out
+    <i> Goldie and Archie smooch... </i>
+    <i> A lot... </i>
+    <i> They realise that the tension they've been feeling about eachother was more then simply worrying about a friend. </i>
+<i> Goldie and Archie rejoin the party and meet up with their friends, everyone is together again and the night turned out to be one of Goldie's favourite memories </i>
 //long ass comment dat dion net zei/make art make out
 //friend group is now together, yayyy (cg of selfie)
 ===
