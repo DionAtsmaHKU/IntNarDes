@@ -49,8 +49,6 @@ ARCHIE: OKAY BYE GOOD LUCK !!!!!
 <<elseif $HangoutPerson == "Capri">>
     << Transition CapriTalk>>
 <<endif>>
-ERROR ???????? HUH??????? I GUESS IT BROKE??????
-<<Transition ArchieHangout>>
 ===
 
 title: ErinTalk
