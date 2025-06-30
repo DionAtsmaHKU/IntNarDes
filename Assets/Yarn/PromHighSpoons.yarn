@@ -195,7 +195,5 @@ GOLDIE: *Wags tail* YIPPIE!!
 <<SetBg VoidBG>>
 <i>Goldie and Archie rejoin the party and meet up with their friends.</i>
 <i>Everyone is together again! The night turned to be one of an unforgettable memory for everyone...</i>
-<i>FIN</i>
-//long ass comment dat dion net zei/make art make out
-//friend group is now together, yayyy (cg of selfie)
+<<Transition EndingEnd>>
 ===
