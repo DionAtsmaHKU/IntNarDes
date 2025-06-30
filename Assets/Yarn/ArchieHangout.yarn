@@ -167,7 +167,7 @@ ARCHIE: God.. Why don't you ever just stop and think. You're always screaming an
 
 GOLDIE: (Why is this happening..? I thought we were having a good time..)
 GOLDIE: (Why is this ALWAYS happening... I need to respond..)
--> Atleast I'm not hiding... I'm still me.. (-2 Spoons) <<if $Bones > 5>>
+-> Atleast I'm not hiding... I'm still me.. (-2 Spoons) <<if $Bones > 100>>
     <<set $Bones -= 2>>
     <<SetLeft GoldieAngry>>
     GOLDIE: Why can't you just geek out with me like before?

@@ -74,9 +74,32 @@ ERIN: Of course!! Come here.
 
 title: CaspurTalk
 ---
-a
-// Spoons choice here probably
-class time
+GOLDIE: (...)
+<<SetRight CaspurNormal>>
+GOLDIE: (Caspur!)
+<<SetLeft GoldieFake>>
+GOLDIE: ..hi ..Cas
+//Already talked it out
+CASPUR: Sup Goldie!
+CASPUR: How... are you today?
+GOLDIE: Actually..
+<<SetLeft GoldieHappy>>
+GOLDIE: Things are a little hard but I'm okay Cas!
+GOLDIE: Like.. actually okay this time!
+CASPUR: Great! let's sit next to eachother in class!
+//Didnt talk it out
+GOLDIE: How are... things?
+CASPUR: ...
+GOLDIE: I'm sorry about yesterday...
+GOLDIE: I jus-
+CASPUR: It's okay Goldie.
+CASPUR: I understand.
+CASPUR: You don't have to talk about it, I'll still be here when you're ready.
+CASPUR: Let's just have fun today!
+GOLDIE: *Puppy eyes* Prommy?
+CASPUR: Prommy! Let's go to class!
+
+//class time
 << Transition ArchieHangout >>
 ===
 
