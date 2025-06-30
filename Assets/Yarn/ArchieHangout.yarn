@@ -6,7 +6,7 @@ tags:
 <<SetLeft Empty>>
 <<SetRight Empty>>
 <<SetBg SchoolClassroomBG>> //Classroom
-<i> Claw Academy Hallways </i>
+<i> Claw Academy Classroom </i>
 
 TEACHER: ...and don't forget to read the next chapter before next week! 
 TEACHER: I see you are all itching to leave but before you go... 
@@ -48,7 +48,7 @@ title:ArchieHangoutOutside
 ---
 <<SetLeft Empty>>
 <<SetRight Empty>>
-<<SetBg SchoolEntranceNoonBG>> //SchoolGrounds
+<<SetBg SchoolGroundsAfternoonBG>> //SchoolGrounds
 
 // goldie walks out of the building and finds Archie on the steps (maybe with some cool skater bros)
 <i> On the school grounds of Claw Academy </i>
