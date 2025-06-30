@@ -22,6 +22,7 @@ GOLDIE: (Do I really look that tired?)
     ARCHIE: Clearly you have someone to talk to. GO. SET FORTH AND FIX YOUR FRIENDSHIP
     GOLDIE: ARGH HOW DO YOU KNOW ME SO WELL???
 -> I think I was just very overstimulated... <<if $HangoutPerson == "Capri">>
+    <<SetLeft GoldieOkay>>
     ARCHIE: That's rough, buddy.
     GOLDIE: YEAH IT WAS!!!
     ARCHIE: You should probably just take it easy, maybe talk to Capri about it?
@@ -83,8 +84,19 @@ class time
 
 title: CapriTalk
 ---
-anyway
-// Spoons choice here probably
-class time
+GOLDIE: (...)
+<<SetRight CapriNormal>>
+GOLDIE: (Oh! There he is!)
+GOLDIE: CAPRIII HIII!!
+CAPRI: Huh? Oh, hi Goldie! What's up?
+GOLDIE: Nothing munch nothing munch... BUT I wanted to... talk?
+CAPRI: Uhm. I'm guessing this is about yesterday?
+GOLDIE: YEAH! I was just. VERY overstimulated. And I feel like I wasn't giving you 100% of my energy and all that!
+CAPRI: Dude. It's literally fine.
+GOLDIE: IS IT?? Like I wanted to have the BEST hangout and-
+CAPRI: Chillll. We had a good time, right? I did at least!
+GOLDIE: YEAH AND THE ARCADE WAS SO PAWESOME BUT. Okay. Nevermind. Thanks!! I'm gonna go to class then talk to you laterrrrrr-
+<<SetLeft Empty>>
+CAPRI: *chuckles* Alright, see you later I guess? 
 << Transition ArchieHangout >>
 ===
