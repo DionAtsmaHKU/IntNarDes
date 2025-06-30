@@ -160,6 +160,10 @@ CAPRI: What- So abruptly? I wasn’t even done explaining sou-
 <<SetLeft Empty>>
 GOLDIE: YEAHITWASGREATBEIGNWITHYOUANDALLBUTIDONTHTINKTHEMALLISAGREATPLACEFORMEATTHISPOINTINTIMEIDRATHERHAVESTAYEDHOMEOKAYNOWBYEEE~!!!! // Overstimulated sprite
 //goldie sprite running away
+<<SetMiddle CapriNormal>>
+<<SetRight Empty>>
+CAPRI: ...
 CAPRI: ...Well thats out of character.
 CAPRI: (-Heh, wasn’t lying when I said that she’s the one with a gold star in shuttle run.)
+<<Transition SchoolDay2>>
 ===
