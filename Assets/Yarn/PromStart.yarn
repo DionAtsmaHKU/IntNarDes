@@ -9,6 +9,8 @@ tags:
 GOLDIE: (Paws... This line is so long)
 GOLDIE: (This is it. The night Everyone has been waiting for...)
 GOLDIE: *Sighs* (I should be happy to be here...)
+<<SetLeft Empty>>
+<<SetMiddle GoldieOkay>>
 <i> The line is moving slowly, there are teens in front of Goldie laughing their hearts out and joking around...</i>
 GOLDIE: (I wonder how everyone's doing...)
 GOLDIE: (Erin... Caspur... Capri...)
@@ -16,14 +18,18 @@ GOLDIE: (Will Archie be there?)
 GOLDIE: (Will they all even be here...?)
 GOLDIE: (Gah, I shouldn't think too much about this-!)
 GOLDIE: (I'm here to have a good time, a great time!!)
+<<SetMiddle Empty>>
+<<SetRight GoldieOkay>>
 <i>The line is getting close to the entrance...</i>
 GOLDIE: (I'm starting to feel the beats of the music in my chest-)
 GOLDIE: (aaaaaaaaaaa it's gonna be goooooooddd...! its gonna be GREAT!!)
+<<SetRight GoldieFake>>
 GOLDIE: (just gonna hype myself up!! i got this!!!)
 BOUNCER (MS. JEANS): Ticket, please.
+<<SetRight GoldieHappy>>
 GOLDIE: H-here!
 BOUNCER (MS. JEANS): Go on your way, Goldie.
-<<SetLeft Empty>>
+<<SetRight Empty>>
 GOLDIE: Thanks!
 BOUNCER (MS. JEANS): ...
 BOUNCER (MS. JEANS): Ticket, please.
@@ -36,19 +42,28 @@ BOUNCER (MS. JEANS): Dervin... Got no drinks? drugs?-
 title: PromInside
 ---
 <<SetBg SchoolPromHallBG>>
-<<SetLeft GoldieOkay>>
-<<SetMiddle Empty>>
+<<SetLeft Empty>>
+<<SetMiddle GoldieOkay>>
 <<SetRight Empty>>
 <i> Prom Hall </i>
+<<SetMiddle GoldieHappy>>
 GOLDIE: (Doggie voice, <i><b>I'm in!</i></b>)
 GOLDIE: ...
+<<SetMiddle GoldieSad>>
 GOLDIE: (IT'S SO... BRIGHT!)
 GOLDIE: (AND LOUD AND ANNOYING AND NOISY AND ALSO BRIGHT-)
 GOLDIE: (OH, I immediatly REGRET THIS-!)
+<<SetMiddle GoldieSadPlus>>
 GOLDIE: Table, Table...!
 GOLDIE: (Is there a table anywhere?!)
 GOLDIE: (OH, THE PUNCH TABLE!)
+<<SetMiddle Empty>>
 <i>Goldie hides under the punch table.</i>
+<<SetLeft GoldieFake>>
 GOLDIE: (This is fine.)
+//if
+<<jump PromHighSpoons>>
+//if
+<<jump PromLowSpoons>>
 //has a tough time the second she enters, hides under punch table
 ===
