@@ -1,6 +1,10 @@
 ﻿title: PromStart
 tags:
 ---
+<<if $Bones > -1 >>
+    <<set $Bones = 6>>
+<<endif>>
+
 <<SetBg SchoolGroundsEveningBG>>
 <<SetLeft GoldieOkay>>
 <<SetMiddle Empty>>
@@ -61,7 +65,7 @@ GOLDIE: (OH, THE PUNCH TABLE!)
 <i>Goldie hides under the punch table.</i>
 <<SetLeft Empty>>
 GOLDIE: (This is fine.)
-<<if $Bones > 11>>
+<<if $Bones > -1>>
     <<jump PromHighSpoons>>
 <<else>>
     <<jump PromLowSpoons>>
